@@ -4,7 +4,7 @@
 ## 1\. GPU Node Exporter Setup
 ### 1.1\. Clone repository for gpu node exporter installation
 ```bash
-	git clone https://github.com/NVIDIA/gpu-monitoring-tools.git
+git clone https://github.com/NVIDIA/gpu-monitoring-tools.git
 ```
 ### 1.2\. Label GPU node
 Add label to GPU node
@@ -59,7 +59,7 @@ kubectl create  -f prometheus-deployment.yaml
 ```
 Check the created deployment using the following command
 ```bash
-	kubectl get deployments --namespace=monitoring
+kubectl get deployments --namespace=monitoring
 ```
 ### 2.5\. Exposing Prometheus as a Service
 ```bash
