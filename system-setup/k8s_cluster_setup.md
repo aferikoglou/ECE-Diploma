@@ -44,9 +44,9 @@ Generate and exchange ssh keys
 ```
 ssh-keygen
 ```
-Add id_rsa.pub (public key) to ~/.ssh/authorized_keys of kube-cpu and kube-gpu for kube-master.
-Add id_rsa.pub (public key) to ~/.ssh/authorized_keys of kube-master for kube-cpu.
-Add id_rsa.pub (public key) to ~/.ssh/authorized_keys of kube-master for kube-gpu.
+- Add id_rsa.pub (public key) to ~/.ssh/authorized_keys of kube-cpu and kube-gpu for kube-master.
+- Add id_rsa.pub (public key) to ~/.ssh/authorized_keys of kube-master for kube-cpu.
+- Add id_rsa.pub (public key) to ~/.ssh/authorized_keys of kube-master for kube-gpu.
 
 Disable firewall 
 ```
