@@ -12,7 +12,7 @@ These instructions will get you a copy of the project on your local machine.
 
 ## Setup
 
-## Run
+## How to use
 
 ## Results
 
