@@ -1,24 +1,19 @@
-# Kubernetes GPU Scheduling
+# System Setup
 
-In this project we try to extend the GPU scheduling mechanism of Kubernetes.
+The system I used consists of a *Kubernetes cluster* with three nodes.
 
-In __system-setup__ folder the instructions of setting up the system I have used can be found.
+- *kube-master*: admin node
+- *kube-cpu*: node without GPU access
+- *kube-gpu*: node with GPU access (*NVIDIA TESLA V100*)
 
-## Getting Started
+I enabled *Kubernetes GPU support* in order to use the GPU of *kube-gpu* node as an extendend resource.
 
-These instructions will get you a copy of the project on your local machine.
+I also created a *Monitoring Mechanism* (*GPU Node Exporter* and *Prometheus TSDB*) in order to get GPU metrics and use them in my scheduler.
 
-## Prerequisites
+Finally, the results of my implementation are going to be compared with the *[Alibaba GPUshare scheduler extender](https://github.com/AliyunContainerService/gpushare-scheduler-extender)*.
 
-## Setup
+The following image describes the system so far.
 
-## How to use
+<img src="images/cluster-image.png" width="350" height="350">
 
-## Results
-
-## Author
-
-* **Ferikoglou Aggelos**
-
-This project was created through my *Diploma* in *[Microlab](https://microlab.ntua.gr/)*.
 
