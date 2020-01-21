@@ -1,6 +1,6 @@
 # Kubernetes cluster - GPU Support
 We follow the instructions shown in [NVIDIA/k8s-device-plugin](https://github.com/NVIDIA/k8s-device-plugin#preparing-your-gpu-nodes) github repository.
-## Step 1: Install nvidia drivers (kube-gpu)
+## 1\. Install nvidia drivers (kube-gpu)
 Get GPU details
 ```
 lshw | grep Tesla
@@ -23,7 +23,7 @@ Check that the Nvidia driver is deing used
 lshw -c display
 nvidia-smi
 ```
-## Step 2: Install [nvidia-docker2](https://github.com/NVIDIA/nvidia-docker) (kube-gpu)
+## 2\. Install [nvidia-docker2](https://github.com/NVIDIA/nvidia-docker) (kube-gpu)
 Add the package repositories
 ```
 distribution=$(. /etc/os-release;echo $ID$VERSION_ID)
@@ -35,11 +35,11 @@ Restart docker
 ```
 sudo systemctl restart docker
 ```
-## Step 3: Install [nvidia-container-runtime](https://github.com/NVIDIA/nvidia-container-runtime) (kube-gpu)
+## 3\. Install [nvidia-container-runtime](https://github.com/NVIDIA/nvidia-container-runtime) (kube-gpu)
 ```
 sudo apt-get install nvidia-container-runtime
 ```
-## Step 4: Enable nvidia runtime as default runtime on node (kube-gpu)
+## 4\. Enable nvidia runtime as default runtime on node (kube-gpu)
 Edit the docker daemon config file
 ```
 vim /etc/docker/daemon.json
@@ -59,12 +59,12 @@ Restart kube-gpu Kubelet
 ```
 systemctl restart kubelet
 ```
-## Step 5: Enable GPU support in Kubernetes (kube-master)
+## 5\. Enable GPU support in Kubernetes (kube-master)
 Deploy the following daemonset
 ```
 kubectl create -f https://raw.githubusercontent.com/NVIDIA/k8s-device-plugin/1.0.0-beta4/nvidia-device-plugin.yml
 ```
-## Step 6: Check if GPU support is enabled in Kubernetes cluster (kube-master)
+## 6\. Check if GPU support is enabled in Kubernetes cluster (kube-master)
 
 Check if GPU appears in the allocated resources section
 ```
