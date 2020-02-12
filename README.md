@@ -41,9 +41,15 @@ After cloning the repository and building the Go program and librady, the right 
 
 ## Results
 
-Here we demonstrate the GPU utilization *.png* for the two different provided *.yaml* files.
+Here we demonstrate the GPU utilization and temperature *.png* for the *dummy-gpu-workload.yaml* file.
 
+*GPU utilization*
 
+<img src="images/dummy-gpu-workload-1581526381-dcgm_gpu_utilization.png" width="350" height="350">
+
+*GPU temperature*
+
+<img src="images/dummy-gpu-workload-1581526381-dcgm_gpu_temp.png" width="350" height="350">
 
 ## Author
 

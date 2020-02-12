@@ -10,8 +10,8 @@ YAML_DIR_PATH='/root/my-yaml-files/mlperf/'
 GO_MONITORING_PROGRAM='/root/go/bin/PrometheusHTTPRequests'
 PYTHON_PLOTTING_PROGRAM='/root/ts_plotting_script.py'
 
-WORKLOAD_YAML_FILES='coco300-gpu-workload.yaml'
-METRICS='dcgm_gpu_utilization'
+WORKLOAD_YAML_FILES='dummy-gpu-workload.yaml'
+METRICS='dcgm_gpu_utilization dcgm_gpu_utilization'
 
 # First parameter - start_timestamp
 # Second parameter - end_timestamp
