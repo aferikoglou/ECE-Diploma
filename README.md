@@ -41,15 +41,23 @@ After cloning the repository and building the Go program and librady, the right 
 
 ## Results
 
-Here we demonstrate the GPU utilization and temperature *.png* for the *dummy-gpu-workload.yaml* file.
+Here we demonstrate the GPU utilization, temperature, mem-copy utilization and power usage *.png* for the *onnxmobilenetss-gpu-workload.yaml* file.
 
 *GPU utilization*
 
-<img src="images/dummy-gpu-workload-1581526381-dcgm_gpu_utilization.png" width="350" height="350">
+<img src="images/onnxmobilenetss-gpu-workload-1582668436-dcgm_gpu_utilization.png" width="350" height="350">
 
 *GPU temperature*
 
-<img src="images/dummy-gpu-workload-1581526381-dcgm_gpu_temp.png" width="350" height="350">
+<img src="images/onnxmobilenetss-gpu-workload-1582668436-dcgm_gpu_temp.png" width="350" height="350">
+
+*GPU mem-copy utilization*
+
+<img src="images/onnxmobilenetss-gpu-workload-1582668436-dcgm_mem_copy_utilization.png" width="350" height="350">
+
+*GPU power usage*
+
+<img src="images/onnxmobilenetss-gpu-workload-1582668436-dcgm_power_usage.png" width="350" height="350">
 
 ## Author
 
