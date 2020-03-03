@@ -39,6 +39,8 @@ After cloning the repository and building the Go program and librady, the right 
 
 ### Custom Scheduler
 
+/***** - *****/
+
 ## Usage
 
 ### Workload Monitoring System
@@ -48,6 +50,8 @@ After cloning the repository and building the Go program and librady, the right 
 ```
 
 ### Custom Scheduler
+
+/***** - *****/
 
 ## Results
 
@@ -73,7 +77,7 @@ Here we demonstrate the GPU utilization, temperature, mem-copy utilization and p
 
 ### Custom Scheduler
 
-
+/***** - *****/
 
 ## Author
 
