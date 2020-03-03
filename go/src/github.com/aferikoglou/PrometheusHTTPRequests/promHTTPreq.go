@@ -6,13 +6,12 @@ import (
 	"bufio"
         "os"
 	"encoding/json"
-	"github.com/aferikoglou/promqueriesutil"
+	"github.com/aferi/promqueriesutil"
 )
 
 const PROMETHEUS_ENDPOINT string = "http://192.168.1.145:30000"
 
 const STEP int = 1 // sec
-
 
 func check(err error) {
     if err != nil {
@@ -28,6 +27,7 @@ func main() {
 	end_timestamp_ptr := flag.Int("end_timestamp", 0, "An integer value that defines the end timestamp of a range query.")
 	export_to_file_ptr := flag.Bool("export_to_file", false, "A boolean value (false by default) that defines whether we export the output to a file or not.")
 	output_file_path_ptr := flag.String("output_file_path", "", "A string value that defines the path to the output file.")
+	workload_start_timestamp_ptr := flag.Int("workload_start_timestamp", 0, "An integer value that defines the start timestamp of the workload of a range query.")
 
 	/***** Parse command line arguments *****/
 	flag.Parse()
@@ -46,6 +46,11 @@ func main() {
 		} else {
 			if *output_file_path_ptr == "" {
 				fmt.Println("path to output file must be specified")
+				os.Exit(1)
+			}
+
+			if *workload_start_timestamp_ptr == 0 {
+				fmt.Println("workload start timestamp must be specified")
 				os.Exit(1)
 			}
 		}
@@ -76,8 +81,10 @@ func main() {
 			timestamp := int(element.([]interface{})[0].(float64))
 			val := element.([]interface{})[1].(string)
 
+			t := timestamp - *workload_start_timestamp_ptr
+
 			buffered_writer := bufio.NewWriter(file)
-			_ , er := buffered_writer.WriteString(fmt.Sprintf("%d", timestamp) + "," + val + "\n")
+			_ , er := buffered_writer.WriteString(fmt.Sprintf("%d", t) + "," + val + "\n")
 			check(er)
 
 			buffered_writer.Flush()

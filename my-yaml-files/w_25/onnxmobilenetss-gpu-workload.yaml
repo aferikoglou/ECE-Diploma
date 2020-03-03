@@ -1,0 +1,23 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: onnxmobilenetss-gpu-workload
+  labels:
+    app: onnxmobilenetss-gpu-workload
+spec:
+  parallelism: 4
+  completions: 4
+  template:
+    metadata:
+      name: onnxmobilenetss-gpu-pod
+      labels:
+        app: onnxmobilenetss-gpu-pod
+    spec:
+      restartPolicy: OnFailure 
+      containers:
+      - name: mlperf-infer-imgclassify-gpu-container
+        image: aferikoglou/mlperf-infer-imgclassify-gpu:latest
+        command: ['sh', '-c', 'cd /tmp/inference/v0.5/classification_and_detection && MODEL_DIR=/tmp DATA_DIR=/tmp/fake_imagenet ./run_local.sh onnxruntime mobilenet gpu']
+        resources:
+          limits:
+            aliyun.com/gpu-mem: 31

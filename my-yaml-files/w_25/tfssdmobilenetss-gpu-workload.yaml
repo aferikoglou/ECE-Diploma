@@ -1,0 +1,23 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: tfssdmobilenetss-gpu-workload
+  labels:
+    app: tfssdmobilenetss-gpu-workload
+spec:
+  parallelism: 4
+  completions: 4
+  template:
+    metadata:
+      name: tfssdmobilenetss-gpu-pod
+      labels:
+        app: tfssdmobilenetss-gpu-pod
+    spec:
+      restartPolicy: OnFailure 
+      containers:
+      - name: mlperf-infer-imgclassify-tf-ssdmob-gpu-container
+        image: aferikoglou/mlperf-infer-imgclassify-tf-ssdmob-gpu:latest
+        command: ['sh', '-c', 'cp /tmp/coco.py /tmp/inference/v0.5/classification_and_detection/python && cd /tmp/inference/v0.5/classification_and_detection && MODEL_DIR=/tmp/models/ssd-mobilenet-default DATA_DIR=/tmp/dataset ./run_local.sh tf ssd-mobilenet gpu --scenario SingleStream']
+        resources:
+          limits:
+            aliyun.com/gpu-mem: 31

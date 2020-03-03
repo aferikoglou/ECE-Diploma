@@ -1,17 +1,17 @@
 apiVersion: batch/v1
 kind: Job
 metadata:
-  name: dummy-gpu-workload
+  name: onnxmobilenetss-gpu-workload
   labels:
-    app: dummy-gpu-workload
+    app: onnxmobilenetss-gpu-workload
 spec:
-  parallelism: 5
-  completions: 5
+  parallelism: 1
+  completions: 1
   template:
     metadata:
-      name: dummy-gpu-pod
+      name: onnxmobilenetss-gpu-pod
       labels:
-        app: dummy-gpu-pod
+        app: onnxmobilenetss-gpu-pod
     spec:
       restartPolicy: OnFailure 
       containers:

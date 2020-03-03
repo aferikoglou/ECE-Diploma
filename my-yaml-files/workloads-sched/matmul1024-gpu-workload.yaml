@@ -1,0 +1,25 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: matmul1024-gpu-workload
+  labels:
+    app: matmul1024-gpu-workload
+spec:
+  parallelism: 5
+  completions: 5
+  template:
+    metadata:
+      name: matmul1024-gpu-pod
+      labels:
+        app: matmul1024-gpu-pod
+    spec:
+      schedulerName: custom-scheduler
+      restartPolicy: OnFailure 
+      containers:
+      - name: matmul1024-container
+        image: aferikoglou/matmul:latest
+        command: ['/home/MatrixMultiplication/mat_mul']
+        args: ['1024']
+        resources:
+          limits:
+            nvidia.com/gpu: 1
