@@ -8,6 +8,8 @@ We have created a GPU workload monitoring system. The *monitoring_script.sh* sub
 
 > The container images that are used can be found in my [Dockerhub account](https://hub.docker.com/search?q=aferikoglou&type=image).
 
+We have created a custom GPU scheduler. The custom-scheduler uses the default Kubernetes GPU extension. The GPU pods are scheduled based on priorities assigned by the scheduler.
+
 ## Getting Started
 
 These instructions will get you a copy of the project on your local machine.
@@ -29,17 +31,27 @@ It uses the following Go and Python versions.
 
 ## Setup
 
+### Workload Monitoring System
+
 After cloning the repository and building the Go program and librady, the right absolute paths for the *YAML_DIR_PATH*, the *GO_MONITORING_PROGRAM* and the *PYTHON_PLOTTING_PROGRAM* in *monitoring_script.sh* must be specified.
 
 > In order to build the library, execute *go build* in *promqueriesutil* directory. After the library is built in order to build the monitoring program execute *go install* in *PrometheusHTTPRequests* directory.
 
+### Custom Scheduler
+
 ## Usage
+
+### Workload Monitoring System
 
 ```bash
 ./monitoring_script.sh
 ```
 
+### Custom Scheduler
+
 ## Results
+
+### Workload Monitoring System
 
 Here we demonstrate the GPU utilization, temperature, mem-copy utilization and power usage *.png* for the *onnxmobilenetss-gpu-workload.yaml* file.
 
@@ -58,6 +70,10 @@ Here we demonstrate the GPU utilization, temperature, mem-copy utilization and p
 *GPU power usage*
 
 <img src="images/onnxmobilenetss-gpu-workload-1582668436-dcgm_power_usage.png" width="350" height="350">
+
+### Custom Scheduler
+
+
 
 ## Author
 
