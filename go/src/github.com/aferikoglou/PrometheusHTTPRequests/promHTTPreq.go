@@ -6,7 +6,7 @@ import (
 	"bufio"
         "os"
 	"encoding/json"
-	"github.com/aferi/promqueriesutil"
+	"github.com/aferikoglou/promqueriesutil"
 )
 
 const PROMETHEUS_ENDPOINT string = "http://192.168.1.145:30000"
