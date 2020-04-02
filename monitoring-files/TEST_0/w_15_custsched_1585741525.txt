@@ -1,0 +1,45 @@
+Job Name       = onnxmobilenetss1-gpu-workload
+Execution Time = 0:01:17
+
+Job Name       = lstmep11-gpu-workload
+Execution Time = 0:00:51
+
+Job Name       = tfresnet50ss2-gpu-workload
+Execution Time = 0:01:37
+
+Job Name       = tfssdmobilenetqftss1-gpu-workload
+Execution Time = 0:01:38
+
+Job Name       = lstmep13-gpu-workload
+Execution Time = 0:00:53
+
+Job Name       = lstmep14-gpu-workload
+Execution Time = 0:00:54
+
+Job Name       = tfssdmobilenetsqftss1-gpu-workload
+Execution Time = 0:01:36
+
+Job Name       = onnxmobilenetss3-gpu-workload
+Execution Time = 0:01:35
+
+Job Name       = onnxmobilenetss2-gpu-workload
+Execution Time = 0:01:27
+
+Job Name       = tfssdmobilenetss1-gpu-workload
+Execution Time = 0:02:13
+
+Job Name       = tfresnet50ss3-gpu-workload
+Execution Time = 0:01:27
+
+Job Name       = lstmep12-gpu-workload
+Execution Time = 0:00:54
+
+Job Name       = tfresnet50ss1-gpu-workload
+Execution Time = 0:01:28
+
+Job Name       = tfssdmobilenetss2-gpu-workload
+Execution Time = 0:02:18
+
+Job Name       = tfresnet50ss-gpu-workload
+Execution Time = 0:01:35
+

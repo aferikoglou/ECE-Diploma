@@ -12,11 +12,6 @@ echo " "
 kubectl delete -f ${CUSTOM_SCHEDULER_DEP_YAML_PATH}
 
 echo " "
-echo "BUILDING custom-scheduler..."
-echo " "
-make build
-
-echo " "
 echo "CREATING IMAGE FOR custom-scheduler..."
 echo " "
 make docker-image

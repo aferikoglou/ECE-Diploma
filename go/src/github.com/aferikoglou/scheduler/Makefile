@@ -2,12 +2,14 @@ SHELL = /bin/bash
 OS = $(shell uname -s)
 
 # Project variables
+
 PACKAGE = github.com/aferikoglou/scheduler
 BINARY_NAME = scheduler
 IMAGE = aferikoglou/scheduler
 TAG = v0.1
 
 # Build variables
+
 BUILD_DIR ?= build
 BUILD_PACKAGE = ${PACKAGE}/cmd/scheduler
 VERSION ?= $(shell git rev-parse --abbrev-ref HEAD)
@@ -23,7 +25,6 @@ DEP_VERSION = 0.5.0
 GOLANG_VERSION = 1.11
 
 GOFILES_NOVENDOR = $(shell find . -type f -name '*.go' -not -path "./vendor/*" -not -path "./client/*")
-
 
 .PHONY: clean
 clean: ## Clean the working area and the project
@@ -75,5 +76,6 @@ help:
 	@grep -h -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
 
 # Variable outputting/exporting rules
+
 var-%: ; @echo $($*)
 varexport-%: ; @echo $*=$($*)

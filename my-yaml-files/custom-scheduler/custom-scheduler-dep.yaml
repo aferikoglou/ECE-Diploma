@@ -19,3 +19,5 @@ spec:
         - name: custom-scheduler
           image: aferikoglou/scheduler:v0.1
           imagePullPolicy: Always
+      nodeSelector:
+        node-name: kube-cpu 

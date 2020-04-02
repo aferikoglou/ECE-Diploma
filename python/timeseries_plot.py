@@ -41,5 +41,7 @@ elif METRIC == 'dcgm_gpu_temp':
 	plt.ylabel(METRIC + ' (oC)')
 elif METRIC == 'dcgm_power_usage':
 	plt.ylabel(METRIC + ' (W)')
+elif METRIC == 'dcgm_fb_used':
+	plt.ylabel(METRIC + ' (MiB)')
 
 plt.savefig(workloadName + '-' + METRIC + '.png')

@@ -1,0 +1,3896 @@
+Custom Kubernetes GPU Scheduler - Kube-Knots
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+2020/04/01 12:26:57 New Node Added to Store: kube-cpu-1
+2020/04/01 12:26:57 New Node Added to Store: kube-gpu-1
+2020/04/01 12:26:57 New Node Added to Store: kube-master-1
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+Found a pod to schedule=default/onnxmobilenetss1-gpu-workload-xmqm2 Assigned Priority=2.000000
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+The pod GPU memory request CAN be satisfied.
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+2020/04/01 12:28:31 Nodes that fit:
+2020/04/01 12:28:31 kube-gpu-1
+2020/04/01 12:28:31 Calculated priorities: map[kube-gpu-1:47]
+Placed pod [default/onnxmobilenetss1-gpu-workload-xmqm2] on kube-gpu-1
+
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 ]
+Temp List pods       = [ ]
+ 
+Found a pod to schedule=default/lstmep11-gpu-workload-hsdkn Assigned Priority=4.000000
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 ]
+Temp List pods       = [ ]
+ 
+The pod GPU memory request CAN be satisfied.
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 ]
+Temp List pods       = [ ]
+ 
+2020/04/01 12:29:20 Nodes that fit:
+2020/04/01 12:29:20 kube-gpu-1
+2020/04/01 12:29:20 Calculated priorities: map[kube-gpu-1:59]
+Placed pod [default/lstmep11-gpu-workload-hsdkn] on kube-gpu-1
+
+ 
+Available GPU Memory = 26
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 lstmep11-gpu-workload-hsdkn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 26
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 lstmep11-gpu-workload-hsdkn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 26
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 lstmep11-gpu-workload-hsdkn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 26
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 lstmep11-gpu-workload-hsdkn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 26
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 lstmep11-gpu-workload-hsdkn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 26
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 lstmep11-gpu-workload-hsdkn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 26
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 lstmep11-gpu-workload-hsdkn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 26
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 lstmep11-gpu-workload-hsdkn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 26
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 lstmep11-gpu-workload-hsdkn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 26
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 lstmep11-gpu-workload-hsdkn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 26
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 lstmep11-gpu-workload-hsdkn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 26
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 lstmep11-gpu-workload-hsdkn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 26
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 lstmep11-gpu-workload-hsdkn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 26
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 lstmep11-gpu-workload-hsdkn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 26
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 lstmep11-gpu-workload-hsdkn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 26
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 lstmep11-gpu-workload-hsdkn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 26
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 lstmep11-gpu-workload-hsdkn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 26
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 lstmep11-gpu-workload-hsdkn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 26
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 lstmep11-gpu-workload-hsdkn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 26
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 lstmep11-gpu-workload-hsdkn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 26
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 lstmep11-gpu-workload-hsdkn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 26
+Running pods         = [ onnxmobilenetss1-gpu-workload-xmqm2 lstmep11-gpu-workload-hsdkn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep11-gpu-workload-hsdkn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep11-gpu-workload-hsdkn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep11-gpu-workload-hsdkn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep11-gpu-workload-hsdkn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep11-gpu-workload-hsdkn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep11-gpu-workload-hsdkn ]
+Temp List pods       = [ ]
+ 
+Found a pod to schedule=default/tfresnet50ss2-gpu-workload-dlmj6 Assigned Priority=18.000000
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep11-gpu-workload-hsdkn ]
+Temp List pods       = [ ]
+ 
+The pod GPU memory request CAN be satisfied.
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep11-gpu-workload-hsdkn ]
+Temp List pods       = [ ]
+ 
+2020/04/01 12:29:58 Nodes that fit:
+2020/04/01 12:29:58 kube-gpu-1
+2020/04/01 12:29:58 Calculated priorities: map[kube-gpu-1:81]
+Placed pod [default/tfresnet50ss2-gpu-workload-dlmj6] on kube-gpu-1
+
+ 
+Available GPU Memory = 10
+Running pods         = [ lstmep11-gpu-workload-hsdkn tfresnet50ss2-gpu-workload-dlmj6 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 10
+Running pods         = [ lstmep11-gpu-workload-hsdkn tfresnet50ss2-gpu-workload-dlmj6 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 10
+Running pods         = [ lstmep11-gpu-workload-hsdkn tfresnet50ss2-gpu-workload-dlmj6 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 10
+Running pods         = [ lstmep11-gpu-workload-hsdkn tfresnet50ss2-gpu-workload-dlmj6 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 10
+Running pods         = [ lstmep11-gpu-workload-hsdkn tfresnet50ss2-gpu-workload-dlmj6 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 10
+Running pods         = [ lstmep11-gpu-workload-hsdkn tfresnet50ss2-gpu-workload-dlmj6 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 10
+Running pods         = [ lstmep11-gpu-workload-hsdkn tfresnet50ss2-gpu-workload-dlmj6 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 10
+Running pods         = [ lstmep11-gpu-workload-hsdkn tfresnet50ss2-gpu-workload-dlmj6 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 10
+Running pods         = [ lstmep11-gpu-workload-hsdkn tfresnet50ss2-gpu-workload-dlmj6 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 10
+Running pods         = [ lstmep11-gpu-workload-hsdkn tfresnet50ss2-gpu-workload-dlmj6 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 10
+Running pods         = [ lstmep11-gpu-workload-hsdkn tfresnet50ss2-gpu-workload-dlmj6 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss2-gpu-workload-dlmj6 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss2-gpu-workload-dlmj6 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss2-gpu-workload-dlmj6 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss2-gpu-workload-dlmj6 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss2-gpu-workload-dlmj6 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss2-gpu-workload-dlmj6 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss2-gpu-workload-dlmj6 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss2-gpu-workload-dlmj6 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss2-gpu-workload-dlmj6 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss2-gpu-workload-dlmj6 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss2-gpu-workload-dlmj6 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss2-gpu-workload-dlmj6 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss2-gpu-workload-dlmj6 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss2-gpu-workload-dlmj6 ]
+Temp List pods       = [ ]
+ 
+Found a pod to schedule=default/tfssdmobilenetqftss1-gpu-workload-s5mrw Assigned Priority=14.000000
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss2-gpu-workload-dlmj6 ]
+Temp List pods       = [ ]
+ 
+The pod GPU memory request CAN be satisfied.
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss2-gpu-workload-dlmj6 ]
+Temp List pods       = [ ]
+ 
+2020/04/01 12:30:49 Nodes that fit:
+2020/04/01 12:30:49 kube-gpu-1
+2020/04/01 12:30:49 Calculated priorities: map[kube-gpu-1:18]
+Placed pod [default/tfssdmobilenetqftss1-gpu-workload-s5mrw] on kube-gpu-1
+
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss2-gpu-workload-dlmj6 tfssdmobilenetqftss1-gpu-workload-s5mrw ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss2-gpu-workload-dlmj6 tfssdmobilenetqftss1-gpu-workload-s5mrw ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss2-gpu-workload-dlmj6 tfssdmobilenetqftss1-gpu-workload-s5mrw ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss2-gpu-workload-dlmj6 tfssdmobilenetqftss1-gpu-workload-s5mrw ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss2-gpu-workload-dlmj6 tfssdmobilenetqftss1-gpu-workload-s5mrw ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss2-gpu-workload-dlmj6 tfssdmobilenetqftss1-gpu-workload-s5mrw ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss2-gpu-workload-dlmj6 tfssdmobilenetqftss1-gpu-workload-s5mrw ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss2-gpu-workload-dlmj6 tfssdmobilenetqftss1-gpu-workload-s5mrw ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss2-gpu-workload-dlmj6 tfssdmobilenetqftss1-gpu-workload-s5mrw ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss2-gpu-workload-dlmj6 tfssdmobilenetqftss1-gpu-workload-s5mrw ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss2-gpu-workload-dlmj6 tfssdmobilenetqftss1-gpu-workload-s5mrw ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss2-gpu-workload-dlmj6 tfssdmobilenetqftss1-gpu-workload-s5mrw ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss2-gpu-workload-dlmj6 tfssdmobilenetqftss1-gpu-workload-s5mrw ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss2-gpu-workload-dlmj6 tfssdmobilenetqftss1-gpu-workload-s5mrw ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss2-gpu-workload-dlmj6 tfssdmobilenetqftss1-gpu-workload-s5mrw ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss2-gpu-workload-dlmj6 tfssdmobilenetqftss1-gpu-workload-s5mrw ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss2-gpu-workload-dlmj6 tfssdmobilenetqftss1-gpu-workload-s5mrw ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss2-gpu-workload-dlmj6 tfssdmobilenetqftss1-gpu-workload-s5mrw ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss2-gpu-workload-dlmj6 tfssdmobilenetqftss1-gpu-workload-s5mrw ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss2-gpu-workload-dlmj6 tfssdmobilenetqftss1-gpu-workload-s5mrw ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss2-gpu-workload-dlmj6 tfssdmobilenetqftss1-gpu-workload-s5mrw ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss2-gpu-workload-dlmj6 tfssdmobilenetqftss1-gpu-workload-s5mrw ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss2-gpu-workload-dlmj6 tfssdmobilenetqftss1-gpu-workload-s5mrw ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss2-gpu-workload-dlmj6 tfssdmobilenetqftss1-gpu-workload-s5mrw ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss2-gpu-workload-dlmj6 tfssdmobilenetqftss1-gpu-workload-s5mrw ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss2-gpu-workload-dlmj6 tfssdmobilenetqftss1-gpu-workload-s5mrw ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss2-gpu-workload-dlmj6 tfssdmobilenetqftss1-gpu-workload-s5mrw ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetqftss1-gpu-workload-s5mrw ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetqftss1-gpu-workload-s5mrw ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetqftss1-gpu-workload-s5mrw ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetqftss1-gpu-workload-s5mrw ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetqftss1-gpu-workload-s5mrw ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetqftss1-gpu-workload-s5mrw ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetqftss1-gpu-workload-s5mrw ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetqftss1-gpu-workload-s5mrw ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetqftss1-gpu-workload-s5mrw ]
+Temp List pods       = [ ]
+ 
+Found a pod to schedule=default/lstmep13-gpu-workload-gpmbk Assigned Priority=4.000000
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetqftss1-gpu-workload-s5mrw ]
+Temp List pods       = [ ]
+ 
+The pod GPU memory request CAN be satisfied.
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetqftss1-gpu-workload-s5mrw ]
+Temp List pods       = [ ]
+ 
+2020/04/01 12:31:51 Nodes that fit:
+2020/04/01 12:31:51 kube-gpu-1
+2020/04/01 12:31:51 Calculated priorities: map[kube-gpu-1:25]
+Placed pod [default/lstmep13-gpu-workload-gpmbk] on kube-gpu-1
+
+ 
+Available GPU Memory = 14
+Running pods         = [ tfssdmobilenetqftss1-gpu-workload-s5mrw lstmep13-gpu-workload-gpmbk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfssdmobilenetqftss1-gpu-workload-s5mrw lstmep13-gpu-workload-gpmbk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfssdmobilenetqftss1-gpu-workload-s5mrw lstmep13-gpu-workload-gpmbk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfssdmobilenetqftss1-gpu-workload-s5mrw lstmep13-gpu-workload-gpmbk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfssdmobilenetqftss1-gpu-workload-s5mrw lstmep13-gpu-workload-gpmbk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfssdmobilenetqftss1-gpu-workload-s5mrw lstmep13-gpu-workload-gpmbk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfssdmobilenetqftss1-gpu-workload-s5mrw lstmep13-gpu-workload-gpmbk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfssdmobilenetqftss1-gpu-workload-s5mrw lstmep13-gpu-workload-gpmbk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfssdmobilenetqftss1-gpu-workload-s5mrw lstmep13-gpu-workload-gpmbk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfssdmobilenetqftss1-gpu-workload-s5mrw lstmep13-gpu-workload-gpmbk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfssdmobilenetqftss1-gpu-workload-s5mrw lstmep13-gpu-workload-gpmbk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfssdmobilenetqftss1-gpu-workload-s5mrw lstmep13-gpu-workload-gpmbk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfssdmobilenetqftss1-gpu-workload-s5mrw lstmep13-gpu-workload-gpmbk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfssdmobilenetqftss1-gpu-workload-s5mrw lstmep13-gpu-workload-gpmbk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfssdmobilenetqftss1-gpu-workload-s5mrw lstmep13-gpu-workload-gpmbk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfssdmobilenetqftss1-gpu-workload-s5mrw lstmep13-gpu-workload-gpmbk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfssdmobilenetqftss1-gpu-workload-s5mrw lstmep13-gpu-workload-gpmbk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfssdmobilenetqftss1-gpu-workload-s5mrw lstmep13-gpu-workload-gpmbk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfssdmobilenetqftss1-gpu-workload-s5mrw lstmep13-gpu-workload-gpmbk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfssdmobilenetqftss1-gpu-workload-s5mrw lstmep13-gpu-workload-gpmbk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfssdmobilenetqftss1-gpu-workload-s5mrw lstmep13-gpu-workload-gpmbk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfssdmobilenetqftss1-gpu-workload-s5mrw lstmep13-gpu-workload-gpmbk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfssdmobilenetqftss1-gpu-workload-s5mrw lstmep13-gpu-workload-gpmbk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfssdmobilenetqftss1-gpu-workload-s5mrw lstmep13-gpu-workload-gpmbk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfssdmobilenetqftss1-gpu-workload-s5mrw lstmep13-gpu-workload-gpmbk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfssdmobilenetqftss1-gpu-workload-s5mrw lstmep13-gpu-workload-gpmbk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfssdmobilenetqftss1-gpu-workload-s5mrw lstmep13-gpu-workload-gpmbk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfssdmobilenetqftss1-gpu-workload-s5mrw lstmep13-gpu-workload-gpmbk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfssdmobilenetqftss1-gpu-workload-s5mrw lstmep13-gpu-workload-gpmbk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfssdmobilenetqftss1-gpu-workload-s5mrw lstmep13-gpu-workload-gpmbk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep13-gpu-workload-gpmbk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep13-gpu-workload-gpmbk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep13-gpu-workload-gpmbk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep13-gpu-workload-gpmbk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep13-gpu-workload-gpmbk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep13-gpu-workload-gpmbk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep13-gpu-workload-gpmbk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep13-gpu-workload-gpmbk ]
+Temp List pods       = [ ]
+ 
+Found a pod to schedule=default/lstmep14-gpu-workload-7m8dk Assigned Priority=4.000000
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep13-gpu-workload-gpmbk ]
+Temp List pods       = [ ]
+ 
+The pod GPU memory request CAN be satisfied.
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep13-gpu-workload-gpmbk ]
+Temp List pods       = [ ]
+ 
+2020/04/01 12:32:34 Nodes that fit:
+2020/04/01 12:32:34 kube-gpu-1
+2020/04/01 12:32:34 Calculated priorities: map[kube-gpu-1:40]
+Placed pod [default/lstmep14-gpu-workload-7m8dk] on kube-gpu-1
+
+ 
+Available GPU Memory = 24
+Running pods         = [ lstmep13-gpu-workload-gpmbk lstmep14-gpu-workload-7m8dk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ lstmep13-gpu-workload-gpmbk lstmep14-gpu-workload-7m8dk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ lstmep13-gpu-workload-gpmbk lstmep14-gpu-workload-7m8dk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ lstmep13-gpu-workload-gpmbk lstmep14-gpu-workload-7m8dk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ lstmep13-gpu-workload-gpmbk lstmep14-gpu-workload-7m8dk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ lstmep13-gpu-workload-gpmbk lstmep14-gpu-workload-7m8dk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep14-gpu-workload-7m8dk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep14-gpu-workload-7m8dk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep14-gpu-workload-7m8dk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep14-gpu-workload-7m8dk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep14-gpu-workload-7m8dk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep14-gpu-workload-7m8dk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep14-gpu-workload-7m8dk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep14-gpu-workload-7m8dk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep14-gpu-workload-7m8dk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep14-gpu-workload-7m8dk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep14-gpu-workload-7m8dk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep14-gpu-workload-7m8dk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep14-gpu-workload-7m8dk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep14-gpu-workload-7m8dk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep14-gpu-workload-7m8dk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep14-gpu-workload-7m8dk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep14-gpu-workload-7m8dk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep14-gpu-workload-7m8dk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep14-gpu-workload-7m8dk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep14-gpu-workload-7m8dk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep14-gpu-workload-7m8dk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep14-gpu-workload-7m8dk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep14-gpu-workload-7m8dk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep14-gpu-workload-7m8dk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep14-gpu-workload-7m8dk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep14-gpu-workload-7m8dk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep14-gpu-workload-7m8dk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep14-gpu-workload-7m8dk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep14-gpu-workload-7m8dk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep14-gpu-workload-7m8dk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep14-gpu-workload-7m8dk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep14-gpu-workload-7m8dk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep14-gpu-workload-7m8dk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep14-gpu-workload-7m8dk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep14-gpu-workload-7m8dk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep14-gpu-workload-7m8dk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep14-gpu-workload-7m8dk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep14-gpu-workload-7m8dk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep14-gpu-workload-7m8dk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep14-gpu-workload-7m8dk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep14-gpu-workload-7m8dk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep14-gpu-workload-7m8dk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+Found a pod to schedule=default/tfssdmobilenetsqftss1-gpu-workload-drgg9 Assigned Priority=14.000000
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+The pod GPU memory request CAN be satisfied.
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+2020/04/01 12:33:33 Nodes that fit:
+2020/04/01 12:33:33 kube-gpu-1
+2020/04/01 12:33:33 Calculated priorities: map[kube-gpu-1:56]
+Placed pod [default/tfssdmobilenetsqftss1-gpu-workload-drgg9] on kube-gpu-1
+
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 ]
+Temp List pods       = [ ]
+ 
+Found a pod to schedule=default/onnxmobilenetss3-gpu-workload-7cxgk Assigned Priority=2.000000
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 ]
+Temp List pods       = [ ]
+ 
+The pod GPU memory request CAN be satisfied.
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 ]
+Temp List pods       = [ ]
+ 
+2020/04/01 12:34:27 Nodes that fit:
+2020/04/01 12:34:27 kube-gpu-1
+2020/04/01 12:34:27 Calculated priorities: map[kube-gpu-1:0]
+2020/04/01 12:34:27 Failed to bind pod. target.name: Required value
+The pod GPU memory request CAN be satisfied.
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 ]
+Temp List pods       = [ ]
+ 
+2020/04/01 12:34:28 Nodes that fit:
+2020/04/01 12:34:28 kube-gpu-1
+2020/04/01 12:34:28 Calculated priorities: map[kube-gpu-1:94]
+Placed pod [default/onnxmobilenetss3-gpu-workload-7cxgk] on kube-gpu-1
+
+ 
+Available GPU Memory = 16
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 onnxmobilenetss3-gpu-workload-7cxgk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 onnxmobilenetss3-gpu-workload-7cxgk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 onnxmobilenetss3-gpu-workload-7cxgk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 onnxmobilenetss3-gpu-workload-7cxgk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 onnxmobilenetss3-gpu-workload-7cxgk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 onnxmobilenetss3-gpu-workload-7cxgk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 onnxmobilenetss3-gpu-workload-7cxgk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 onnxmobilenetss3-gpu-workload-7cxgk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 onnxmobilenetss3-gpu-workload-7cxgk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 onnxmobilenetss3-gpu-workload-7cxgk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 onnxmobilenetss3-gpu-workload-7cxgk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 onnxmobilenetss3-gpu-workload-7cxgk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 onnxmobilenetss3-gpu-workload-7cxgk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 onnxmobilenetss3-gpu-workload-7cxgk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 onnxmobilenetss3-gpu-workload-7cxgk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 onnxmobilenetss3-gpu-workload-7cxgk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 onnxmobilenetss3-gpu-workload-7cxgk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 onnxmobilenetss3-gpu-workload-7cxgk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 onnxmobilenetss3-gpu-workload-7cxgk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 onnxmobilenetss3-gpu-workload-7cxgk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 onnxmobilenetss3-gpu-workload-7cxgk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 onnxmobilenetss3-gpu-workload-7cxgk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 onnxmobilenetss3-gpu-workload-7cxgk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 onnxmobilenetss3-gpu-workload-7cxgk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 onnxmobilenetss3-gpu-workload-7cxgk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 onnxmobilenetss3-gpu-workload-7cxgk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 onnxmobilenetss3-gpu-workload-7cxgk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 onnxmobilenetss3-gpu-workload-7cxgk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 onnxmobilenetss3-gpu-workload-7cxgk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 onnxmobilenetss3-gpu-workload-7cxgk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 onnxmobilenetss3-gpu-workload-7cxgk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 onnxmobilenetss3-gpu-workload-7cxgk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tfssdmobilenetsqftss1-gpu-workload-drgg9 onnxmobilenetss3-gpu-workload-7cxgk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss3-gpu-workload-7cxgk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss3-gpu-workload-7cxgk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss3-gpu-workload-7cxgk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss3-gpu-workload-7cxgk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss3-gpu-workload-7cxgk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss3-gpu-workload-7cxgk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss3-gpu-workload-7cxgk ]
+Temp List pods       = [ ]
+ 
+Found a pod to schedule=default/tfssdmobilenetss1-gpu-workload-cjvnc Assigned Priority=14.000000
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss3-gpu-workload-7cxgk ]
+Temp List pods       = [ ]
+ 
+The pod GPU memory request CAN be satisfied.
+ 
+Available GPU Memory = 30
+Running pods         = [ onnxmobilenetss3-gpu-workload-7cxgk ]
+Temp List pods       = [ ]
+ 
+2020/04/01 12:35:16 Nodes that fit:
+2020/04/01 12:35:16 kube-gpu-1
+2020/04/01 12:35:16 Calculated priorities: map[kube-gpu-1:62]
+Placed pod [default/tfssdmobilenetss1-gpu-workload-cjvnc] on kube-gpu-1
+
+ 
+Available GPU Memory = 16
+Running pods         = [ onnxmobilenetss3-gpu-workload-7cxgk tfssdmobilenetss1-gpu-workload-cjvnc ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ onnxmobilenetss3-gpu-workload-7cxgk tfssdmobilenetss1-gpu-workload-cjvnc ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ onnxmobilenetss3-gpu-workload-7cxgk tfssdmobilenetss1-gpu-workload-cjvnc ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ onnxmobilenetss3-gpu-workload-7cxgk tfssdmobilenetss1-gpu-workload-cjvnc ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ onnxmobilenetss3-gpu-workload-7cxgk tfssdmobilenetss1-gpu-workload-cjvnc ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ onnxmobilenetss3-gpu-workload-7cxgk tfssdmobilenetss1-gpu-workload-cjvnc ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ onnxmobilenetss3-gpu-workload-7cxgk tfssdmobilenetss1-gpu-workload-cjvnc ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ onnxmobilenetss3-gpu-workload-7cxgk tfssdmobilenetss1-gpu-workload-cjvnc ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ onnxmobilenetss3-gpu-workload-7cxgk tfssdmobilenetss1-gpu-workload-cjvnc ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ onnxmobilenetss3-gpu-workload-7cxgk tfssdmobilenetss1-gpu-workload-cjvnc ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ onnxmobilenetss3-gpu-workload-7cxgk tfssdmobilenetss1-gpu-workload-cjvnc ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ onnxmobilenetss3-gpu-workload-7cxgk tfssdmobilenetss1-gpu-workload-cjvnc ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ onnxmobilenetss3-gpu-workload-7cxgk tfssdmobilenetss1-gpu-workload-cjvnc ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ onnxmobilenetss3-gpu-workload-7cxgk tfssdmobilenetss1-gpu-workload-cjvnc ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ onnxmobilenetss3-gpu-workload-7cxgk tfssdmobilenetss1-gpu-workload-cjvnc ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ onnxmobilenetss3-gpu-workload-7cxgk tfssdmobilenetss1-gpu-workload-cjvnc ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ onnxmobilenetss3-gpu-workload-7cxgk tfssdmobilenetss1-gpu-workload-cjvnc ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ onnxmobilenetss3-gpu-workload-7cxgk tfssdmobilenetss1-gpu-workload-cjvnc ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ onnxmobilenetss3-gpu-workload-7cxgk tfssdmobilenetss1-gpu-workload-cjvnc ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ onnxmobilenetss3-gpu-workload-7cxgk tfssdmobilenetss1-gpu-workload-cjvnc ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ onnxmobilenetss3-gpu-workload-7cxgk tfssdmobilenetss1-gpu-workload-cjvnc ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ onnxmobilenetss3-gpu-workload-7cxgk tfssdmobilenetss1-gpu-workload-cjvnc ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc ]
+Temp List pods       = [ ]
+ 
+Found a pod to schedule=default/onnxmobilenetss2-gpu-workload-99cq6 Assigned Priority=2.000000
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc ]
+Temp List pods       = [ ]
+ 
+The pod GPU memory request CAN be satisfied.
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc ]
+Temp List pods       = [ ]
+ 
+2020/04/01 12:36:01 Nodes that fit:
+2020/04/01 12:36:01 kube-gpu-1
+2020/04/01 12:36:01 Calculated priorities: map[kube-gpu-1:89]
+Placed pod [default/onnxmobilenetss2-gpu-workload-99cq6] on kube-gpu-1
+
+ 
+Available GPU Memory = 16
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 ]
+Temp List pods       = [ ]
+ 
+Found a pod to schedule=default/tfresnet50ss3-gpu-workload-hkvb9 Assigned Priority=18.000000
+ 
+Available GPU Memory = 16
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 ]
+Temp List pods       = [ ]
+ 
+The pod GPU memory request CANNOT be satisfied.
+ 
+Can_Colocate Calculations ...
+Mean               = 26762.843137254902
+Variance           = 6.396885936178446e+06
+Standard Deviation = 2529.2065823452313
+COV                = 0.09450440558105275
+ 
+ 
+Harvest_Resource Calculations ...
+Sorted Values      = [318 318 318 318 840 840 840 840 840 840 6994 6994 6994 6994 6994 6994 6994 6994 6994 6994 6994 6994 6994 6994 6994 6994 6994 6994 6994 6994 6994 6994 6994 6994 6994 6994 6994 6994 6994 6994 6994 6994 6994 6994 6994 6994 6994 6994 6994 6994 6994]
+Index              = 40
+80%-ile            = 6994
+Used GPU Memory    = 7
+ 
+Harvested GPU Available Memory = 25
+The pod GPU memory request CAN be satisfied through GPU memory HARVESTING.
+ 
+Available GPU Memory = 16
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 ]
+Temp List pods       = [ ]
+ 
+2020/04/01 12:36:39 Nodes that fit:
+2020/04/01 12:36:39 kube-gpu-1
+2020/04/01 12:36:39 Calculated priorities: map[kube-gpu-1:74]
+Placed pod [default/tfresnet50ss3-gpu-workload-hkvb9] on kube-gpu-1
+
+ 
+Available GPU Memory = -2
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = -2
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = -2
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = -2
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = -2
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = -2
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = -2
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = -2
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = -2
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = -2
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = -2
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = -2
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = -2
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = -2
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = -2
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = -2
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = -2
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = -2
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = -2
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = -2
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = -2
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = -2
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = -2
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = -2
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = -2
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = -2
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = -2
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = -2
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = -2
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = -2
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = -2
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = -2
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 ]
+Temp List pods       = [ ]
+ 
+Found a pod to schedule=default/lstmep12-gpu-workload-bqg2n Assigned Priority=4.000000
+ 
+Available GPU Memory = -2
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = -2
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 ]
+Temp List pods       = [ ]
+ 
+The pod GPU memory request CANNOT be satisfied.
+ 
+Can_Colocate Calculations ...
+Mean               = 23287.21568627451
+Variance           = 1.0194992326028347e+07
+Standard Deviation = 3192.959806516259
+COV                = 0.13711213266248012
+ 
+ 
+Harvest_Resource Calculations ...
+Sorted Values      = [6994 6994 6994 6994 6994 6994 6994 6994 6994 6994 6994 6994 6994 6994 6994 7337 7337 7337 7337 7337 7337 7337 7337 7855 7855 7855 7855 7855 7855 7855 8162 8162 8162 8162 8162 8162 8162 8162 12136 12136 12136 12136 12136 12136 16232 16232 16232 16232 16232 16232 16232]
+Index              = 40
+80%-ile            = 12136
+Used GPU Memory    = 12
+ 
+Harvested GPU Available Memory = 20
+The pod GPU memory request CAN be satisfied through GPU memory HARVESTING.
+ 
+Available GPU Memory = -2
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 ]
+Temp List pods       = [ ]
+ 
+2020/04/01 12:37:16 Nodes that fit:
+2020/04/01 12:37:16 kube-gpu-1
+2020/04/01 12:37:16 Calculated priorities: map[kube-gpu-1:11]
+Placed pod [default/lstmep12-gpu-workload-bqg2n] on kube-gpu-1
+
+ 
+Available GPU Memory = -6
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 lstmep12-gpu-workload-bqg2n ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = -6
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 lstmep12-gpu-workload-bqg2n ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = -6
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 lstmep12-gpu-workload-bqg2n ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = -6
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 lstmep12-gpu-workload-bqg2n ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = -6
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 lstmep12-gpu-workload-bqg2n ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = -6
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 lstmep12-gpu-workload-bqg2n ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = -6
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 lstmep12-gpu-workload-bqg2n ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = -6
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 lstmep12-gpu-workload-bqg2n ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = -6
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 lstmep12-gpu-workload-bqg2n ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = -6
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 lstmep12-gpu-workload-bqg2n ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = -6
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 lstmep12-gpu-workload-bqg2n ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = -6
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 lstmep12-gpu-workload-bqg2n ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = -6
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 lstmep12-gpu-workload-bqg2n ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = -6
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 lstmep12-gpu-workload-bqg2n ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = -6
+Running pods         = [ tfssdmobilenetss1-gpu-workload-cjvnc onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 lstmep12-gpu-workload-bqg2n ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 8
+Running pods         = [ onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 lstmep12-gpu-workload-bqg2n ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 8
+Running pods         = [ onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 lstmep12-gpu-workload-bqg2n ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 8
+Running pods         = [ onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 lstmep12-gpu-workload-bqg2n ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 8
+Running pods         = [ onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 lstmep12-gpu-workload-bqg2n ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 8
+Running pods         = [ onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 lstmep12-gpu-workload-bqg2n ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 8
+Running pods         = [ onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 lstmep12-gpu-workload-bqg2n ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 8
+Running pods         = [ onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 lstmep12-gpu-workload-bqg2n ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 8
+Running pods         = [ onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 lstmep12-gpu-workload-bqg2n ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 8
+Running pods         = [ onnxmobilenetss2-gpu-workload-99cq6 tfresnet50ss3-gpu-workload-hkvb9 lstmep12-gpu-workload-bqg2n ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 10
+Running pods         = [ tfresnet50ss3-gpu-workload-hkvb9 lstmep12-gpu-workload-bqg2n ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 10
+Running pods         = [ tfresnet50ss3-gpu-workload-hkvb9 lstmep12-gpu-workload-bqg2n ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 10
+Running pods         = [ tfresnet50ss3-gpu-workload-hkvb9 lstmep12-gpu-workload-bqg2n ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 10
+Running pods         = [ tfresnet50ss3-gpu-workload-hkvb9 lstmep12-gpu-workload-bqg2n ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 10
+Running pods         = [ tfresnet50ss3-gpu-workload-hkvb9 lstmep12-gpu-workload-bqg2n ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 10
+Running pods         = [ tfresnet50ss3-gpu-workload-hkvb9 lstmep12-gpu-workload-bqg2n ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 10
+Running pods         = [ tfresnet50ss3-gpu-workload-hkvb9 lstmep12-gpu-workload-bqg2n ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 10
+Running pods         = [ tfresnet50ss3-gpu-workload-hkvb9 lstmep12-gpu-workload-bqg2n ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 10
+Running pods         = [ tfresnet50ss3-gpu-workload-hkvb9 lstmep12-gpu-workload-bqg2n ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 10
+Running pods         = [ tfresnet50ss3-gpu-workload-hkvb9 lstmep12-gpu-workload-bqg2n ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 10
+Running pods         = [ tfresnet50ss3-gpu-workload-hkvb9 lstmep12-gpu-workload-bqg2n ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 10
+Running pods         = [ tfresnet50ss3-gpu-workload-hkvb9 lstmep12-gpu-workload-bqg2n ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 10
+Running pods         = [ tfresnet50ss3-gpu-workload-hkvb9 lstmep12-gpu-workload-bqg2n ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 10
+Running pods         = [ tfresnet50ss3-gpu-workload-hkvb9 lstmep12-gpu-workload-bqg2n ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 10
+Running pods         = [ tfresnet50ss3-gpu-workload-hkvb9 lstmep12-gpu-workload-bqg2n ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 10
+Running pods         = [ tfresnet50ss3-gpu-workload-hkvb9 lstmep12-gpu-workload-bqg2n ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 10
+Running pods         = [ tfresnet50ss3-gpu-workload-hkvb9 lstmep12-gpu-workload-bqg2n ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 10
+Running pods         = [ tfresnet50ss3-gpu-workload-hkvb9 lstmep12-gpu-workload-bqg2n ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 10
+Running pods         = [ tfresnet50ss3-gpu-workload-hkvb9 lstmep12-gpu-workload-bqg2n ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep12-gpu-workload-bqg2n ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep12-gpu-workload-bqg2n ]
+Temp List pods       = [ ]
+ 
+Found a pod to schedule=default/tfresnet50ss1-gpu-workload-6fl4g Assigned Priority=18.000000
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep12-gpu-workload-bqg2n ]
+Temp List pods       = [ ]
+ 
+The pod GPU memory request CAN be satisfied.
+ 
+Available GPU Memory = 28
+Running pods         = [ lstmep12-gpu-workload-bqg2n ]
+Temp List pods       = [ ]
+ 
+2020/04/01 12:38:06 Nodes that fit:
+2020/04/01 12:38:06 kube-gpu-1
+2020/04/01 12:38:06 Calculated priorities: map[kube-gpu-1:45]
+Placed pod [default/tfresnet50ss1-gpu-workload-6fl4g] on kube-gpu-1
+
+ 
+Available GPU Memory = 10
+Running pods         = [ lstmep12-gpu-workload-bqg2n tfresnet50ss1-gpu-workload-6fl4g ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 10
+Running pods         = [ lstmep12-gpu-workload-bqg2n tfresnet50ss1-gpu-workload-6fl4g ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g ]
+Temp List pods       = [ ]
+ 
+Found a pod to schedule=default/tfssdmobilenetss2-gpu-workload-2bd5j Assigned Priority=14.000000
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g ]
+Temp List pods       = [ ]
+ 
+The pod GPU memory request CAN be satisfied.
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g ]
+Temp List pods       = [ ]
+ 
+2020/04/01 12:38:55 Nodes that fit:
+2020/04/01 12:38:55 kube-gpu-1
+2020/04/01 12:38:55 Calculated priorities: map[kube-gpu-1:37]
+Placed pod [default/tfssdmobilenetss2-gpu-workload-2bd5j] on kube-gpu-1
+
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g tfssdmobilenetss2-gpu-workload-2bd5j ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g tfssdmobilenetss2-gpu-workload-2bd5j ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g tfssdmobilenetss2-gpu-workload-2bd5j ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g tfssdmobilenetss2-gpu-workload-2bd5j ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g tfssdmobilenetss2-gpu-workload-2bd5j ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g tfssdmobilenetss2-gpu-workload-2bd5j ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g tfssdmobilenetss2-gpu-workload-2bd5j ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g tfssdmobilenetss2-gpu-workload-2bd5j ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g tfssdmobilenetss2-gpu-workload-2bd5j ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g tfssdmobilenetss2-gpu-workload-2bd5j ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g tfssdmobilenetss2-gpu-workload-2bd5j ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g tfssdmobilenetss2-gpu-workload-2bd5j ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g tfssdmobilenetss2-gpu-workload-2bd5j ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g tfssdmobilenetss2-gpu-workload-2bd5j ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g tfssdmobilenetss2-gpu-workload-2bd5j ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g tfssdmobilenetss2-gpu-workload-2bd5j ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g tfssdmobilenetss2-gpu-workload-2bd5j ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g tfssdmobilenetss2-gpu-workload-2bd5j ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g tfssdmobilenetss2-gpu-workload-2bd5j ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g tfssdmobilenetss2-gpu-workload-2bd5j ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g tfssdmobilenetss2-gpu-workload-2bd5j ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g tfssdmobilenetss2-gpu-workload-2bd5j ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g tfssdmobilenetss2-gpu-workload-2bd5j ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g tfssdmobilenetss2-gpu-workload-2bd5j ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g tfssdmobilenetss2-gpu-workload-2bd5j ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g tfssdmobilenetss2-gpu-workload-2bd5j ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g tfssdmobilenetss2-gpu-workload-2bd5j ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfresnet50ss1-gpu-workload-6fl4g tfssdmobilenetss2-gpu-workload-2bd5j ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j ]
+Temp List pods       = [ ]
+ 
+Found a pod to schedule=default/tfresnet50ss-gpu-workload-p5sgb Assigned Priority=18.000000
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j ]
+Temp List pods       = [ ]
+ 
+The pod GPU memory request CAN be satisfied.
+ 
+Available GPU Memory = 18
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j ]
+Temp List pods       = [ ]
+ 
+2020/04/01 12:39:40 Nodes that fit:
+2020/04/01 12:39:40 kube-gpu-1
+2020/04/01 12:39:40 Calculated priorities: map[kube-gpu-1:6]
+Placed pod [default/tfresnet50ss-gpu-workload-p5sgb] on kube-gpu-1
+
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 0
+Running pods         = [ tfssdmobilenetss2-gpu-workload-2bd5j tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 14
+Running pods         = [ tfresnet50ss-gpu-workload-p5sgb ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 

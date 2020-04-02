@@ -1,0 +1,25 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: lstmep14-gpu-workload
+  labels:
+    app: lstmep1-gpu-workload
+spec:
+  parallelism: 1
+  completions: 1
+  template:
+    metadata:
+      name: lstmep11-gpu-pod
+      labels:
+        app: lstmep1-gpu-pod
+    spec:
+      restartPolicy: OnFailure 
+      containers:
+      - name: lstmep1-container
+        image: aferikoglou/lstm:latest
+        env:
+        - name: "EPOCHS"
+          value: "1"
+        resources:
+          limits:
+            aliyun.com/gpu-mem: 2

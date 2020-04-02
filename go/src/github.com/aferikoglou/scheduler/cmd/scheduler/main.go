@@ -3,12 +3,15 @@ package main
 import (
 	"fmt"
 	"log"
+	"math"
 	"math/rand"
 	"time"
+	"sort"
 	"errors"
-	"strings"
+	"strconv"
+	"container/list"
 	"github.com/jupp0r/go-priority-queue"
-//	"github.com/promqueriesutil"
+	"github.com/promqueriesutil"
 
 	"k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
@@ -21,23 +24,25 @@ import (
 	"k8s.io/apimachinery/pkg/util/wait"
 )
 
-// Scheduler name
 const schedulerName = "custom-scheduler"
 
-// Defines the predicateFunc type which is a function that gets as
-// input a node and a pod and returns a bool value.
-type predicateFunc func(node *v1.Node, pod *v1.Pod) bool
+var AVAIL_GPU_MEM int = 32
 
-// Defines the priorityFunc type which is a function that gets as
-// input a node and a pod and returns an int value.
+var podGPUMemoryRequestMap map[string]int
+
+var runningPodsList *list.List
+var tmpList *list.List
+
+var FOUND_SCHEDULABLE_POD bool = true
+
+const PROMETHEUS_ENDPOINT string = "http://192.168.1.145:30000"
+const d int = 50
+
+const k int = 1
+
+type predicateFunc func(node *v1.Node, pod *v1.Pod) bool
 type priorityFunc func(node *v1.Node, pod *v1.Pod) int
 
-// A Scheduler is a struct with the following fields:
-// clientset 
-// podPriorityQueue - A priority queue that contains pointers to the pods that are going to be scheduled
-// nodeLister - The nodes that are in the cache of the node informer
-// predicates - A predicateFunc slice 
-// priorities - A priorityFunc slice
 type Scheduler struct {
 	clientset  *kubernetes.Clientset
 	podPriorityQueue pq.PriorityQueue
@@ -46,24 +51,17 @@ type Scheduler struct {
 	priorities []priorityFunc
 }
 
-// NewScheduler - Creates a new scheduler
 func NewScheduler(podPriorityQueue pq.PriorityQueue, quit chan struct{}) Scheduler {
-	// Returns a config object which uses the service account Kubernetes gives to pods.
-	// It's intended for clients that expect to be running inside a pod running on Kubernetes.
-	// It will return ErrNotInCluster if called from a process not running in a Kubernetes 
-	// environment.
 	config, err := rest.InClusterConfig()
 	if err != nil {
 		log.Fatal(err)
 	}
-	// Creates a new Clientset for the given config. If config's RateLimiter is not set
-	// and QPS and Burst are acceptable, NewForConfig will generate a rate-limiter in 
-	// configShallowCopy.
+
 	clientset, err := kubernetes.NewForConfig(config)
 	if err != nil {
 		log.Fatal(err)
 	}
-	// Returns the new Scheduler.
+
 	return Scheduler{
 		clientset:  clientset,
 		podPriorityQueue: podPriorityQueue,
@@ -77,17 +75,11 @@ func NewScheduler(podPriorityQueue pq.PriorityQueue, quit chan struct{}) Schedul
 	}
 }
 
-// initInformers - Creates node and pod informer
 func initInformers(clientset *kubernetes.Clientset, podPriorityQueue pq.PriorityQueue, quit chan struct{}) listersv1.NodeLister {
-	// Provides shared informers for resources in all known API group versions.
 	factory := informers.NewSharedInformerFactory(clientset, 0)
 
-	// Creates a node informer. The node informer keeps a cache of all the nodes
-	// in the cluster and updates the state of the cache if a new node is added,
-	// or an exisitng node is deleted. (We don't have to query the apiserver for
-	// the list of nodes every time we're scheduling a pod)
 	nodeInformer := factory.Core().V1().Nodes()
-	// Define what should be done when a new node is added.
+
 	nodeInformer.Informer().AddEventHandler(cache.ResourceEventHandlerFuncs{
 		AddFunc: func(obj interface{}) {
 			node, ok := obj.(*v1.Node)
@@ -99,21 +91,8 @@ func initInformers(clientset *kubernetes.Clientset, podPriorityQueue pq.Priority
 		},
 	})
 
-	/***** Create a map that contains the duration of the measured pods. *****/
-        podDurationMap := make(map[string]int)
-
-        podDurationMap["matmul32768"] = 189
-        podDurationMap["onnxmobilenetss"] = 71
-        podDurationMap["tfssdmobilenetss"] = 89
-	podDurationMap["lstmep1"] = 36
-
-	/***** *****/
-
-	// Creates a pod informer. The pod informer keeps a cache of all the pods
-	// in the cluster and updates the state of the cache if a new pod is added,
-	// or an exisitng pod is deleted.
 	podInformer := factory.Core().V1().Pods()
-	// Define what should be done when a new pod is added.
+
 	podInformer.Informer().AddEventHandler(cache.ResourceEventHandlerFuncs{
 		AddFunc: func(obj interface{}) {
 			pod, ok := obj.(*v1.Pod)
@@ -121,135 +100,159 @@ func initInformers(clientset *kubernetes.Clientset, podPriorityQueue pq.Priority
 				log.Println("This is not a pod.")
 				return
 			}
-			// Add the pod to the podPriorityQueue if and only if it is not assigned to a node
-			// and the SchedulerName is schedulerName.
-			if pod.Spec.NodeName == "" && pod.Spec.SchedulerName == schedulerName {
-				priority := 1 / podDurationPredictor(pod.Name, podDurationMap)
 
-				fmt.Print("Pod Name=" + pod.Name)
+			if pod.Spec.NodeName == "" && pod.Spec.SchedulerName == schedulerName {
+
+				gpuMemory, _ := strconv.Atoi(pod.Labels["GPU_MEM_REQ"])
+
+				podGPUMemoryRequestMap[pod.Name] = gpuMemory
+
+				priority := float64(gpuMemory)
+
+				fmt.Print("Found a pod to schedule=", pod.Namespace, "/", pod.Name)
 				fmt.Println(" Assigned Priority=" + fmt.Sprintf("%f", priority))
-				fmt.Println(" ")
 
 				podPriorityQueue.Insert(pod, priority)
+
 			}
 		},
 	})
-	// Initializes all requested informers.
+
 	factory.Start(quit)
-	// Returns a list with all the nodes in the cache of the nodeInformer.
+
 	return nodeInformer.Lister()
 }
 
 func main() {
-	fmt.Println("Custom Kubernetes GPU scheduler")
-	fmt.Println()
-	// Seed for random number generator used for the random priorities
-	rand.Seed(time.Now().Unix())
-	// Create a priority queue for the pods.
+	fmt.Println("Custom Kubernetes GPU Scheduler - Kube-Knots")
+
+	podGPUMemoryRequestMap = make(map[string]int)
+
 	podPriorityQueue := pq.New()
-	// quit is a struct channel
+
+	runningPodsList = list.New()
+	tmpList = list.New()
+
 	quit := make(chan struct{})
-	// We ensure that when main() is finished the quit channel will be closed
 	defer close(quit)
-	// Creates a new scheduler by using NewScheduler function
+
 	scheduler := NewScheduler(podPriorityQueue, quit)
-	// Starts running the scheduler
+
 	scheduler.Run(quit)
 }
 
 func (s *Scheduler) Run(quit chan struct{}) {
-	// Loops until quit channel is closed and executes ScheduleOne function every period time.
 	wait.Until(s.ScheduleOne, 0, quit)
 }
 
 func (s *Scheduler) ScheduleOne() {
-	// Loops until the pod priority queue is not empty.
 	pod, _ := s.podPriorityQueue.Pop()
 
 	for pod == nil {
 		pod, _ = s.podPriorityQueue.Pop()
+
+		s.removeRunListPods()
+
+		getState()
+
 		time.Sleep(1 * time.Second)
 	}
 
 	p := pod.(*v1.Pod)
 
-	fmt.Println("Found a pod to schedule:", p.Namespace, "/", p.Name)
+	FOUND_SCHEDULABLE_POD = true
+	tmpList = list.New()
 
-	// Finds the fitting node.
-	node, err := s.findFit(p)
-	if err != nil {
-		log.Println("Cannot find node that fits pod.", err.Error())
-		return
-	}
+	// Check running GPU pod list if some of these pods are finished.
+	s.removeRunListPods()
 
-	// Binds the pod to the node.
-	err = s.bindPod(p, node)
-	if err != nil {
-		log.Println("Failed to bind pod.", err.Error())
-		return
-	}
+	// Get GPU Timeseries
+	freeGPUMemTS := getGPUMetricTS(PROMETHEUS_ENDPOINT, "dcgm_fb_free", d)
+	usedGPUMemTS := getGPUMetricTS(PROMETHEUS_ENDPOINT, "dcgm_fb_used", d)
 
-	// Emits event.
-	message := fmt.Sprintf("Placed pod [%s/%s] on %s\n", p.Namespace, p.Name, node)
-
-	err = s.emitEvent(p, message)
-	if err != nil {
-		log.Println("Failed to emit scheduled event.", err.Error())
-		return
-	}
-
-	fmt.Println(message)
-
-	// Wait until the scheduled pod is finished. If we don't wait the pod will be scheduled
-	// to kube-gpu node but the gpu resource will be occupied causing an UnexpectedAdmissionError
-	// for the pod.
-	config, err := rest.InClusterConfig()
-	if err != nil {
-		log.Fatal(err)
-	}
-
-	clientset, err := kubernetes.NewForConfig(config)
-	if err != nil {
-		log.Fatal(err)
-	}
-
-	for {
-		pod, _ := clientset.CoreV1().Pods("default").Get(p.Name, metav1.GetOptions{})
-		f := pod.Status.Phase == "Succeeded"
-		if f {
+	// If the pod requests more GPU memory than the available add the pod to tempList
+	// and get the next pod.
+	for !Can_Be_Scheduled(freeGPUMemTS, usedGPUMemTS, p) {
+		// Save pod to tmpList.
+		tmpList.PushBack(p)
+		// Get next pod.
+		np, _ := s.podPriorityQueue.Pop()
+		// Check if the Priority Queue is empty.
+		if np == nil {
+			FOUND_SCHEDULABLE_POD = false
 			break
 		}
+		p = np.(*v1.Pod)
 	}
 
-	// Update pod priorities.
-	pqMap := s.podPriorityQueue.GetLookup()
+	getState()
 
-	for key, _ := range pqMap {
-		// Update code base.
-		// fmt.Print("Pod Name="key.(*v1.Pod).Name)
-		// fmt.Println(" New Assigned Priority=" + fmt.Sprintf("%f", priority))
-		// s.podPriorityQueue.UpdatePriority(key.(*v1.Pod), priority)
-
-		fmt.Println(key.(*v1.Pod).Name)
+	// Add pods back to priority queue.
+	for e := tmpList.Front(); e != nil; e = e.Next() {
+		pod_ := e.Value.(*v1.Pod)
+		s.podPriorityQueue.Insert(pod_, float64(podGPUMemoryRequestMap[pod_.Name]))
 	}
 
+	time.Sleep(1 * time.Second)
+
+	if !FOUND_SCHEDULABLE_POD {
+		return
+	} else {
+		// Try to schedule the selected pod.
+		node, err := s.findFit(p)
+		if err != nil {
+			log.Println("Cannot find node that fits pod.", err.Error())
+
+			// In case of FAILURE add pod back to the Priority Queue.
+			s.podPriorityQueue.Insert(p, float64(podGPUMemoryRequestMap[p.Name]))
+
+			return
+		}
+
+		err = s.bindPod(p, node)
+		if err != nil {
+			log.Println("Failed to bind pod.", err.Error())
+
+			// In case of FAILURE add pod back to the Priority Queue.
+			s.podPriorityQueue.Insert(p, float64(podGPUMemoryRequestMap[p.Name]))
+
+			return
+		}
+
+		message := fmt.Sprintf("Placed pod [%s/%s] on %s\n", p.Namespace, p.Name, node)
+
+		err = s.emitEvent(p, message)
+		if err != nil {
+			log.Println("Failed to emit scheduled event.", err.Error())
+
+			// In case of FAILURE add pod back to the Priority Queue.
+			s.podPriorityQueue.Insert(p, float64(podGPUMemoryRequestMap[p.Name]))
+
+			return
+		}
+
+		fmt.Println(message)
+
+		// If the pod is scheduled successfully add it to the running pods list and
+		// decrease the available GPU memory.
+		runningPodsList.PushBack(p)
+		AVAIL_GPU_MEM -= podGPUMemoryRequestMap[p.Name]
+	}
 }
 
 func (s *Scheduler) findFit(pod *v1.Pod) (string, error) {
-	// Returns ALL the available nodes. (labels.Everything() - Returns a selector that matches all labels)
 	nodes, err := s.nodeLister.List(labels.Everything())
 	if err != nil {
 		return "", err
 	}
-	// Returns the nodes that satisfy all the Scheduler predicates.
+
 	filteredNodes := s.runPredicates(nodes, pod)
 	if len(filteredNodes) == 0 {
 		return "", errors.New("Failed to find node that fits pod.")
 	}
-	// Creates a map which stores the names of the filtered nodes
-	// and their corresponding priorities.
+
 	priorities := s.prioritize(filteredNodes, pod)
-	// Returns the name of the node with the highest priority.
+
 	return s.findBestNode(priorities), nil
 }
 
@@ -296,15 +299,13 @@ func (s *Scheduler) emitEvent(p *v1.Pod, message string) error {
 }
 
 func (s *Scheduler) runPredicates(nodes []*v1.Node, pod *v1.Pod) []*v1.Node {
-	// Creates a node slice which contains all the nodes that satisfy all 
-	// of the Scheduler predicates.
 	filteredNodes := make([]*v1.Node, 0)
 	for _, node := range nodes {
 		if s.predicatesApply(node, pod) {
 			filteredNodes = append(filteredNodes, node)
 		}
 	}
-	// Prints all the filtered nodes.
+
 	log.Println("Nodes that fit:")
 	for _, n := range filteredNodes {
 		log.Println(n.Name)
@@ -312,7 +313,6 @@ func (s *Scheduler) runPredicates(nodes []*v1.Node, pod *v1.Pod) []*v1.Node {
 	return filteredNodes
 }
 
-// Applies all the Scheduler predicates.
 func (s *Scheduler) predicatesApply(node *v1.Node, pod *v1.Pod) bool {
 	for _, predicate := range s.predicates {
 		if !predicate(node, pod) {
@@ -322,16 +322,13 @@ func (s *Scheduler) predicatesApply(node *v1.Node, pod *v1.Pod) bool {
 	return true
 }
 
-// containsGPUPredicate - Returns true only if the node is kube-gpu
 func containsGPUPredicate(node *v1.Node, pod *v1.Pod) bool {
 	return (node.Name == "kube-gpu-1")
 }
 
 func (s *Scheduler) prioritize(nodes []*v1.Node, pod *v1.Pod) map[string]int {
-	// Creates a map which stores the priorities of nodes.
 	priorities := make(map[string]int)
-	// For each node apply all the Scheduler priority functions and
-	// store them to priorities map.
+
 	for _, node := range nodes {
 		for _, priority := range s.priorities {
 			priorities[node.Name] += priority(node, pod)
@@ -341,7 +338,6 @@ func (s *Scheduler) prioritize(nodes []*v1.Node, pod *v1.Pod) map[string]int {
 	return priorities
 }
 
-// Returns the name of the node with the highest priority.
 func (s *Scheduler) findBestNode(priorities map[string]int) string {
 	var maxP int
 	var bestNode string
@@ -354,28 +350,303 @@ func (s *Scheduler) findBestNode(priorities map[string]int) string {
 	return bestNode
 }
 
-// randomPriority - Returns an integer in [0, 100)
 func randomPriority(node *v1.Node, pod *v1.Pod) int {
 	return rand.Intn(100)
 }
 
-// podDurationPredictor - Returns the estimated duration 
-func podDurationPredictor(podName string, podDurationMap map[string]int) float64 {
-	source := rand.NewSource(time.Now().UnixNano())
-        randGen := rand.New(source)
+func getState() {
+	fmt.Println(" ")
+	fmt.Print("Available GPU Memory = ")
+	fmt.Println(AVAIL_GPU_MEM)
 
-	var podDuration float64 = 1.0
-	for name, duration := range podDurationMap {
-		if strings.Contains(podName, name) {
-			podDuration = float64(duration)
-			break
+        fmt.Print("Running pods         = [ ")
+        for e := runningPodsList.Front(); e != nil; e = e.Next() {
+		pod := e.Value.(*v1.Pod)
+		fmt.Print(pod.Name + " ")
+	}
+	fmt.Println("]")
+
+	fmt.Print("Temp List pods       = [ ")
+	for e := tmpList.Front(); e != nil; e = e.Next() {
+		pod := e.Value.(*v1.Pod)
+		fmt.Print(pod.Name + " ")
+	}
+	fmt.Println("]")
+	fmt.Println(" ")
+}
+
+func (s *Scheduler) removeRunListPods() {
+	for e := runningPodsList.Front(); e != nil; e = e.Next() {
+		pod_ := e.Value.(*v1.Pod)
+
+		// resp, _ := s.clientset.CoreV1().Pods("default").Get(pod_.Name, metav1.GetOptions{})
+		resp, er := s.clientset.CoreV1().Pods("default").Get(pod_.Name, metav1.GetOptions{})
+
+		// f_ := resp.Status.Phase == "Succeeded"
+		f_ := er != nil || resp.Status.Phase == "Succeeded"
+		if f_ {
+			gpuMemoryReq, exists := podGPUMemoryRequestMap[pod_.Name]
+			if exists {
+				AVAIL_GPU_MEM += gpuMemoryReq
+				delete(podGPUMemoryRequestMap, pod_.Name);
+			}
+
+			runningPodsList.Remove(e)
+		}
+	}
+}
+
+func getGPUMetricTS(PROMETHEUS_ENDPOINT string, GPU_METRIC string, d int) map[int]float64 {
+	const STEP int = 1
+
+	endTimestamp := int32(time.Now().Unix())
+
+	startTimestamp := endTimestamp - int32(d)
+
+	return promqueriesutil.RangeQuery(PROMETHEUS_ENDPOINT, GPU_METRIC, int64(startTimestamp), int64(endTimestamp), STEP)
+}
+
+func Can_Colocate(freeGPUMemTS map[int]float64) bool {
+	// Get map data sorted
+	keys := make([]int, 0)
+        for k, _ := range freeGPUMemTS {
+		keys = append(keys, k)
+	}
+
+        sort.Ints(keys)
+
+	var N int = d + 1
+	var sum float64 = 0.0   // x_i summary
+	var sum_2 float64 = 0.0 // x_i * x_i summary
+
+	for _, timestamp := range keys {
+		val := freeGPUMemTS[timestamp]
+
+		sum += val
+		sum_2 += val * val
+	}
+
+	fmt.Println(" ")
+	fmt.Println("Can_Colocate Calculations ...")
+
+	var mean float64 = sum / float64(N)
+	fmt.Print("Mean               = ")
+        fmt.Println(mean)
+
+	mean_val_squared := sum_2 / float64(N)
+	var variance float64 = mean_val_squared - mean * mean
+	fmt.Print("Variance           = ")
+        fmt.Println(variance)
+
+	var standard_deviation float64 = math.Sqrt(variance)
+	fmt.Print("Standard Deviation = ")
+	fmt.Println(standard_deviation)
+
+	var COV float64 = standard_deviation / mean
+	fmt.Print("COV                = ")
+	fmt.Println(COV)
+	fmt.Println(" ")
+
+	return (COV < 0.5)
+}
+
+func Harvest_Resource(usedGPUMemTS map[int]float64) int {
+	// Calculate the 80%-ile GPU memory consumption
+	values := make([]float64, 0)
+        for _, val := range usedGPUMemTS {
+		values = append(values, val)
+	}
+
+	fmt.Println(" ")
+	fmt.Println("Harvest_Resource Calculations ...")
+
+	sort.Float64s(values)
+	fmt.Print("Sorted Values      = ")
+	fmt.Println(values)
+
+	var index int = int(float64(d) * 0.8)
+	fmt.Print("Index              = ")
+	fmt.Println(index)
+
+	var percentile float64 = values[index]
+	fmt.Print("80%-ile            = ")
+	fmt.Println(percentile)
+
+	var temp float64 = math.Round(percentile * 0.001)
+	var usedGPUMemory int = int(temp)
+	fmt.Print("Used GPU Memory    = ")
+	fmt.Println(usedGPUMemory)
+	fmt.Println(" ")
+
+	return usedGPUMemory
+}
+
+func Can_Be_Scheduled(freeGPUMemTS map[int]float64, usedGPUMemTS map[int]float64, p *v1.Pod) bool {
+	if podGPUMemoryRequestMap[p.Name] <= AVAIL_GPU_MEM {
+		fmt.Println("The pod GPU memory request CAN be satisfied.")
+		return true
+	}
+
+	fmt.Println("The pod GPU memory request CANNOT be satisfied.")
+
+	if Can_Colocate(freeGPUMemTS) {
+		harvestedAvailGPUMemory := 32 - Harvest_Resource(usedGPUMemTS)
+
+		fmt.Print("Harvested GPU Available Memory = ")
+		fmt.Println(harvestedAvailGPUMemory)
+
+		if podGPUMemoryRequestMap[p.Name] <= harvestedAvailGPUMemory {
+			fmt.Println("The pod GPU memory request CAN be satisfied through GPU memory HARVESTING.")
+			return true
 		}
 	}
 
-	var estimatedDuration float64 = podDuration + (2 * randGen.Float64() - 1) * 0.1 * podDuration
+	fmt.Println("The pod GPU memory request CANNOT be satisfied through GPU memory HARVESTING.")
 
-	fmt.Println(podName + " Estimated Duration = " + fmt.Sprintf("%f", estimatedDuration) + " sec")
+	/*
+	autoCor := AutoCorrelation(freeGPUMemTS, k)
+	if autoCor > 0 {
+		const steps int = 1
 
-	return estimatedDuration
+		freeGPUMemPred := AR_1(freeGPUMemTS, autoCor, steps)
+
+		fmt.Print("Free GPU Memory Prediction in ")
+		fmt.Print(steps)
+		fmt.Print(" sec = ")
+                fmt.Println(freeGPUMemPred)
+
+		if podGPUMemoryRequestMap[p.Name] <= freeGPUMemPred {
+			fmt.Println("The pod GPU memory request CAN be satisfied through PEAK PREDICTION.")
+			return true
+		}
+	}
+
+	fmt.Println("The pod GPU memory request CANNOT be satisfied through PEAK PREDICTION.")
+	*/
+
+	return false
 }
 
+func AutoCorrelation(freeGPUMemTS map[int]float64, k int) float64 {
+	// Get map data sorted
+	keys := make([]int, 0)
+	for k, _ := range freeGPUMemTS {
+		keys = append(keys, k)
+	}
+
+	sort.Ints(keys)
+
+	var N int = d + 1
+	var sum float64 = 0.0  // x_i summary
+
+	values := make([]float64, 0)
+	for _, timestamp := range keys {
+		val := freeGPUMemTS[timestamp]
+
+		values = append(values, val)
+		sum += val
+	}
+
+	fmt.Println(" ")
+	fmt.Println("AutoCorrelation Calculations ...")
+
+	fmt.Print("Values          = ")
+	fmt.Println(values)
+
+	var mean float64 = sum / float64(N)
+
+	// Calculate autocorrelation
+	// Numerator calculation
+	var numerator float64 = 0.0
+	for i := 0; i < N - k; i++ {
+		numerator += (values[i] - mean) * (values[i + k] - mean)
+	}
+
+	// Denominator calculation
+        var denominator float64 = 0.0
+	for i := 0; i < N; i++ {
+		denominator += (values[i] - mean) * (values[i] - mean)
+	}
+
+	var autocorrelation float64 = numerator / denominator
+
+	fmt.Print("Autocorrelation of order ")
+	fmt.Print(k)
+	fmt.Print(" = ")
+	fmt.Println(autocorrelation)
+	fmt.Println(" ")
+
+	return autocorrelation
+}
+
+func AR_1(freeGPUMemTS map[int]float64, autocorrelation float64, steps int) int {
+	// Get map data sorted
+	keys := make([]int, 0)
+	for k, _ := range freeGPUMemTS {
+		keys = append(keys, k)
+	}
+
+        sort.Ints(keys)
+
+	var N int = d + 1
+	var sum float64 = 0.0   // x_i summary
+	var sum_2 float64 = 0.0 // x_i * x_i summary
+
+        values := make([]float64, 0)
+        for _, timestamp := range keys {
+		val := freeGPUMemTS[timestamp]
+
+		values = append(values, val)
+		sum += val
+		sum_2 += val * val
+	}
+
+	fmt.Println(" ")
+	fmt.Println("AR(1) Calculations ...")
+
+	fmt.Print("Values                   = ")
+	fmt.Println(values)
+
+	var mean float64 = sum / float64(N)
+
+	mean_val_squared := sum_2 / float64(N)
+	var variance float64 = mean_val_squared - mean * mean
+
+	// Calculate model parameters
+	var phi_1 float64 = autocorrelation
+	var phi_0 float64 = mean * (1 - phi_1)
+	var error_variance float64 = variance * (1 - phi_1 * phi_1)
+	var error_standard_deviation float64 = math.Sqrt(error_variance)
+
+	fmt.Print("φ_0                      = ")
+	fmt.Println(phi_0)
+	fmt.Print("φ_1                      = ")
+	fmt.Println(phi_1)
+	fmt.Print("Error Standard Deviation = ")
+	fmt.Println(error_standard_deviation)
+	fmt.Print("MODEL : ")
+	fmt.Print("y_i = ")
+	fmt.Print(phi_0)
+	fmt.Print(" + ")
+	fmt.Print(phi_1)
+	fmt.Print(" * ")
+	fmt.Println("y_i-1")
+	fmt.Println(" ")
+
+	var val float64 = values[N-1]
+	for i:=1; i < steps + 1; i++ {
+		pred := phi_0 + phi_1 * val
+
+		// fmt.Print("Prediction at step ")
+		// fmt.Print(i)
+		// fmt.Print(" = ")
+		// fmt.Println(pred)
+
+		val = pred
+	}
+
+	var temp float64 = math.Round(val * 0.001)
+	var freeGPUMemoryPred int = int(temp)
+
+	return freeGPUMemoryPred
+}

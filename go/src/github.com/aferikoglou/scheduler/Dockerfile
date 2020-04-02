@@ -1,8 +1,4 @@
-# build stage
 FROM golang:1.11-alpine as backend
-
-# RUN echo http://mirror.yandex.ru/mirrors/alpine/v3.5/main > /etc/apk/repositories; \
-#    echo http://mirror.yandex.ru/mirrors/alpine/v3.5/community >> /etc/apk/repositories
 
 RUN apk add --update --no-cache bash ca-certificates curl git make tzdata
 

@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ServiceAccount
 metadata:
-  namespace: default 
+  namespace: default
   name: custom-scheduler 
   labels:
     app: custom-scheduler 
