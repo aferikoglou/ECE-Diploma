@@ -8,7 +8,7 @@ We assume that the NVIDIA driver is installed in the GPU node.
 
 Add the package repositories.
 
-```
+```bash
 distribution=$(. /etc/os-release;echo $ID$VERSION_ID)
 curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey | sudo apt-key add -
 curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list | sudo tee /etc/apt/sources.list.d/nvidia-docker.list
@@ -17,13 +17,13 @@ sudo apt-get update && sudo apt-get install -y nvidia-docker2
 
 Restart docker.
 
-```
+```bash
 sudo systemctl restart docker
 ```
 
 ## 2\. Install [nvidia-container-runtime](https://github.com/NVIDIA/nvidia-container-runtime) (kube-gpu)
 
-```
+```bash
 sudo apt-get install nvidia-container-runtime
 ```
 
@@ -31,7 +31,7 @@ sudo apt-get install nvidia-container-runtime
 
 Edit the docker daemon config file.
 
-```
+```bash
 vim /etc/docker/daemon.json
 
 {
@@ -48,7 +48,7 @@ vim /etc/docker/daemon.json
 
 Restart kube-gpu kubelet.
 
-```
+```bash
 systemctl restart kubelet
 ```
 
@@ -56,7 +56,7 @@ systemctl restart kubelet
 
 Deploy the following daemonset.
 
-```
+```bash
 kubectl create -f PATH-TO-default-sched-setup-DIR/default-sched-setup/nvidia-device-plugin.yml
 ```
 
@@ -64,12 +64,12 @@ kubectl create -f PATH-TO-default-sched-setup-DIR/default-sched-setup/nvidia-dev
 
 Check if GPU appears in the allocated resources section.
 
-```
+```bash
 kubectl describe nodes kube-gpu
 ```
 Create a GPU pod.
 
-```
+```bash
 vim gpu-pod.yaml
 
 apiVersion: v1
@@ -91,6 +91,6 @@ kubectl get pods
 
 In kube-gpu execute:
 
-```
+```bash
 nvidia-smi
 ```
