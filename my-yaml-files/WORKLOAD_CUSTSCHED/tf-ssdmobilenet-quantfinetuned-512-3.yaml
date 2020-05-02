@@ -1,0 +1,24 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: tf-ssdmobilenet-quantfinetuned-512-3
+spec:
+  completions: 1
+  parallelism: 1
+  template:
+    metadata:
+      labels:
+        GPU_MEM_REQ: '14'
+      name: tf-ssdmobilenet-quantfinetuned-512-3-pod
+    spec:
+      containers:
+      - command:
+        - sh
+        - -c
+        - cp /root/configs/512/mlperf.conf /root/inference/v0.5/ && cd /root/inference/v0.5/classification_and_detection
+          && MODEL_DIR=/root/models/tf-ssdmobilenet-quantfinetuned DATA_DIR=/root/datasets/coco-300
+          ./run_local.sh tf ssd-mobilenet gpu --scenario SingleStream
+        image: aferikoglou/mlperf-inference:latest
+        name: mlperf-inference-container
+      restartPolicy: OnFailure
+      schedulerName: custom-scheduler

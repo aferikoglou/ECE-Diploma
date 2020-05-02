@@ -9,7 +9,7 @@ import (
 	"github.com/aferikoglou/promqueriesutil"
 )
 
-const PROMETHEUS_ENDPOINT string = "http://192.168.1.145:30000"
+const PROMETHEUS_ENDPOINT string = "http://192.168.1.146:30000"
 
 const STEP int = 1 // sec
 

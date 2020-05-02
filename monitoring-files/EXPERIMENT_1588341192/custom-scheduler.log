@@ -1,0 +1,5519 @@
+Custom Kubernetes GPU Scheduler - Kube-Knots
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+2020/05/01 22:37:33 New Node Added to Store: kube-cpu
+2020/05/01 22:37:33 New Node Added to Store: kube-gpu-1
+2020/05/01 22:37:33 New Node Added to Store: kube-master
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+Found a pod to schedule=default/tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 Assigned Priority=7.000000
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+The pod GPU memory request CAN be satisfied.
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+2020/05/01 22:38:32 Nodes that fit:
+2020/05/01 22:38:32 kube-gpu-1
+2020/05/01 22:38:32 Calculated priorities: map[kube-gpu-1:47]
+Placed pod [default/tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7] on kube-gpu-1
+
+Scheduling Timestamp for tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 = 1588372712
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 ]
+Temp List pods       = [ ]
+ 
+Found a pod to schedule=default/tf-resnet50-8192-0-f6c6h Assigned Priority=9.000000
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 ]
+Temp List pods       = [ ]
+ 
+The pod GPU memory request CAN be satisfied.
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 ]
+Temp List pods       = [ ]
+ 
+2020/05/01 22:39:21 Nodes that fit:
+2020/05/01 22:39:21 kube-gpu-1
+2020/05/01 22:39:21 Calculated priorities: map[kube-gpu-1:59]
+Placed pod [default/tf-resnet50-8192-0-f6c6h] on kube-gpu-1
+
+Scheduling Timestamp for tf-resnet50-8192-0-f6c6h = 1588372761
+ 
+Available GPU Memory = 16
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h ]
+Temp List pods       = [ ]
+ 
+Found a pod to schedule=default/tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m Assigned Priority=7.000000
+ 
+Available GPU Memory = 16
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h ]
+Temp List pods       = [ ]
+ 
+The pod GPU memory request CAN be satisfied.
+ 
+Available GPU Memory = 16
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h ]
+Temp List pods       = [ ]
+ 
+2020/05/01 22:39:57 Nodes that fit:
+2020/05/01 22:39:57 kube-gpu-1
+2020/05/01 22:39:57 Calculated priorities: map[kube-gpu-1:81]
+Placed pod [default/tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m] on kube-gpu-1
+
+Scheduling Timestamp for tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m = 1588372797
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+Found a pod to schedule=default/tf-ssdmobilenet-quantfinetuned-512-2-rjl7f Assigned Priority=7.000000
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+The pod GPU memory request CAN be satisfied.
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+2020/05/01 22:40:50 Nodes that fit:
+2020/05/01 22:40:50 kube-gpu-1
+2020/05/01 22:40:50 Calculated priorities: map[kube-gpu-1:18]
+Placed pod [default/tf-ssdmobilenet-quantfinetuned-512-2-rjl7f] on kube-gpu-1
+
+Scheduling Timestamp for tf-ssdmobilenet-quantfinetuned-512-2-rjl7f = 1588372851
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+Found a pod to schedule=default/onnx-mobilenet-1024-0-tnpvm Assigned Priority=1.000000
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-resnet50-8192-0-f6c6h tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+The pod GPU memory request CAN be satisfied.
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+2020/05/01 22:41:49 Nodes that fit:
+2020/05/01 22:41:49 kube-gpu-1
+2020/05/01 22:41:49 Calculated priorities: map[kube-gpu-1:25]
+Placed pod [default/onnx-mobilenet-1024-0-tnpvm] on kube-gpu-1
+
+Scheduling Timestamp for onnx-mobilenet-1024-0-tnpvm = 1588372909
+ 
+Available GPU Memory = 10
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f onnx-mobilenet-1024-0-tnpvm ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 10
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f onnx-mobilenet-1024-0-tnpvm ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 10
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f onnx-mobilenet-1024-0-tnpvm ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 10
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f onnx-mobilenet-1024-0-tnpvm ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 10
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f onnx-mobilenet-1024-0-tnpvm ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 10
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f onnx-mobilenet-1024-0-tnpvm ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 10
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f onnx-mobilenet-1024-0-tnpvm ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 10
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f onnx-mobilenet-1024-0-tnpvm ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 10
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f onnx-mobilenet-1024-0-tnpvm ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 10
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f onnx-mobilenet-1024-0-tnpvm ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 10
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f onnx-mobilenet-1024-0-tnpvm ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 10
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-2-h4cm7 tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f onnx-mobilenet-1024-0-tnpvm ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 17
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f onnx-mobilenet-1024-0-tnpvm ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 17
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f onnx-mobilenet-1024-0-tnpvm ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 17
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f onnx-mobilenet-1024-0-tnpvm ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 17
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f onnx-mobilenet-1024-0-tnpvm ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 17
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f onnx-mobilenet-1024-0-tnpvm ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 17
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f onnx-mobilenet-1024-0-tnpvm ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 17
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f onnx-mobilenet-1024-0-tnpvm ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 17
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f onnx-mobilenet-1024-0-tnpvm ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 17
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f onnx-mobilenet-1024-0-tnpvm ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 17
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f onnx-mobilenet-1024-0-tnpvm ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 17
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f onnx-mobilenet-1024-0-tnpvm ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 17
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f onnx-mobilenet-1024-0-tnpvm ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 17
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f onnx-mobilenet-1024-0-tnpvm ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 17
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f onnx-mobilenet-1024-0-tnpvm ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 17
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f onnx-mobilenet-1024-0-tnpvm ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 17
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f onnx-mobilenet-1024-0-tnpvm ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 17
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f onnx-mobilenet-1024-0-tnpvm ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 17
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f onnx-mobilenet-1024-0-tnpvm ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 17
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f onnx-mobilenet-1024-0-tnpvm ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-2-rjl7f ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+Found a pod to schedule=default/tf-ssdmobilenet-quantfinetuned-512-3-hv6wn Assigned Priority=7.000000
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+The pod GPU memory request CAN be satisfied.
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m ]
+Temp List pods       = [ ]
+ 
+2020/05/01 22:42:34 Nodes that fit:
+2020/05/01 22:42:34 kube-gpu-1
+2020/05/01 22:42:34 Calculated priorities: map[kube-gpu-1:40]
+Placed pod [default/tf-ssdmobilenet-quantfinetuned-512-3-hv6wn] on kube-gpu-1
+
+Scheduling Timestamp for tf-ssdmobilenet-quantfinetuned-512-3-hv6wn = 1588372954
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-1-msk4m tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+Found a pod to schedule=default/tf-ssdmobilenet-default-1024-1-5rrvj Assigned Priority=7.000000
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+The pod GPU memory request CAN be satisfied.
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-quantfinetuned-512-3-hv6wn ]
+Temp List pods       = [ ]
+ 
+2020/05/01 22:43:32 Nodes that fit:
+2020/05/01 22:43:32 kube-gpu-1
+2020/05/01 22:43:32 Calculated priorities: map[kube-gpu-1:56]
+Placed pod [default/tf-ssdmobilenet-default-1024-1-5rrvj] on kube-gpu-1
+
+Scheduling Timestamp for tf-ssdmobilenet-default-1024-1-5rrvj = 1588373012
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj ]
+Temp List pods       = [ ]
+ 
+Found a pod to schedule=default/tf-ssdmobilenet-default-1024-2-dbkln Assigned Priority=7.000000
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj ]
+Temp List pods       = [ ]
+ 
+The pod GPU memory request CAN be satisfied.
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj ]
+Temp List pods       = [ ]
+ 
+2020/05/01 22:44:19 Nodes that fit:
+2020/05/01 22:44:19 kube-gpu-1
+2020/05/01 22:44:19 Calculated priorities: map[kube-gpu-1:0]
+2020/05/01 22:44:19 Failed to bind pod. target.name: Required value
+The pod GPU memory request CAN be satisfied.
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj ]
+Temp List pods       = [ ]
+ 
+2020/05/01 22:44:20 Nodes that fit:
+2020/05/01 22:44:20 kube-gpu-1
+2020/05/01 22:44:20 Calculated priorities: map[kube-gpu-1:94]
+Placed pod [default/tf-ssdmobilenet-default-1024-2-dbkln] on kube-gpu-1
+
+Scheduling Timestamp for tf-ssdmobilenet-default-1024-2-dbkln = 1588373060
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+Found a pod to schedule=default/onnx-mobilenet-1024-1-2kvbq Assigned Priority=1.000000
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+The pod GPU memory request CAN be satisfied.
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+2020/05/01 22:45:07 Nodes that fit:
+2020/05/01 22:45:07 kube-gpu-1
+2020/05/01 22:45:07 Calculated priorities: map[kube-gpu-1:11]
+Placed pod [default/onnx-mobilenet-1024-1-2kvbq] on kube-gpu-1
+
+Scheduling Timestamp for onnx-mobilenet-1024-1-2kvbq = 1588373107
+ 
+Available GPU Memory = 17
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln onnx-mobilenet-1024-1-2kvbq ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 17
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln onnx-mobilenet-1024-1-2kvbq ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 17
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln onnx-mobilenet-1024-1-2kvbq ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 17
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln onnx-mobilenet-1024-1-2kvbq ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 17
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln onnx-mobilenet-1024-1-2kvbq ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 17
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln onnx-mobilenet-1024-1-2kvbq ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 17
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln onnx-mobilenet-1024-1-2kvbq ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 17
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln onnx-mobilenet-1024-1-2kvbq ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 17
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln onnx-mobilenet-1024-1-2kvbq ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 17
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln onnx-mobilenet-1024-1-2kvbq ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 17
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln onnx-mobilenet-1024-1-2kvbq ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 17
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln onnx-mobilenet-1024-1-2kvbq ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 17
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln onnx-mobilenet-1024-1-2kvbq ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 17
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln onnx-mobilenet-1024-1-2kvbq ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 17
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln onnx-mobilenet-1024-1-2kvbq ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 17
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln onnx-mobilenet-1024-1-2kvbq ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 17
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln onnx-mobilenet-1024-1-2kvbq ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 17
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln onnx-mobilenet-1024-1-2kvbq ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 17
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln onnx-mobilenet-1024-1-2kvbq ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 17
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln onnx-mobilenet-1024-1-2kvbq ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 17
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln onnx-mobilenet-1024-1-2kvbq ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 17
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln onnx-mobilenet-1024-1-2kvbq ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 17
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln onnx-mobilenet-1024-1-2kvbq ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 17
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln onnx-mobilenet-1024-1-2kvbq ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 17
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln onnx-mobilenet-1024-1-2kvbq ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 17
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln onnx-mobilenet-1024-1-2kvbq ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 17
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln onnx-mobilenet-1024-1-2kvbq ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 17
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln onnx-mobilenet-1024-1-2kvbq ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 17
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln onnx-mobilenet-1024-1-2kvbq ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 17
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln onnx-mobilenet-1024-1-2kvbq ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 17
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln onnx-mobilenet-1024-1-2kvbq ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+Found a pod to schedule=default/tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 Assigned Priority=7.000000
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+The pod GPU memory request CAN be satisfied.
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln ]
+Temp List pods       = [ ]
+ 
+2020/05/01 22:45:52 Nodes that fit:
+2020/05/01 22:45:52 kube-gpu-1
+2020/05/01 22:45:52 Calculated priorities: map[kube-gpu-1:89]
+Placed pod [default/tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64] on kube-gpu-1
+
+Scheduling Timestamp for tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 = 1588373152
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-default-1024-1-5rrvj tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 ]
+Temp List pods       = [ ]
+ 
+Found a pod to schedule=default/tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 Assigned Priority=7.000000
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 ]
+Temp List pods       = [ ]
+ 
+The pod GPU memory request CAN be satisfied.
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 ]
+Temp List pods       = [ ]
+ 
+2020/05/01 22:46:29 Nodes that fit:
+2020/05/01 22:46:29 kube-gpu-1
+2020/05/01 22:46:29 Calculated priorities: map[kube-gpu-1:28]
+Placed pod [default/tf-ssdmobilenet-quantfinetuned-512-0-mwvj8] on kube-gpu-1
+
+Scheduling Timestamp for tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 = 1588373189
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 ]
+Temp List pods       = [ ]
+ 
+Found a pod to schedule=default/tf-resnet50-4096-0-wx6qk Assigned Priority=9.000000
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 ]
+Temp List pods       = [ ]
+ 
+The pod GPU memory request CAN be satisfied.
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 ]
+Temp List pods       = [ ]
+ 
+2020/05/01 22:47:06 Nodes that fit:
+2020/05/01 22:47:06 kube-gpu-1
+2020/05/01 22:47:06 Calculated priorities: map[kube-gpu-1:74]
+Placed pod [default/tf-resnet50-4096-0-wx6qk] on kube-gpu-1
+
+Scheduling Timestamp for tf-resnet50-4096-0-wx6qk = 1588373226
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 tf-resnet50-4096-0-wx6qk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 tf-resnet50-4096-0-wx6qk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 tf-resnet50-4096-0-wx6qk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 tf-resnet50-4096-0-wx6qk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 tf-resnet50-4096-0-wx6qk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 2
+Running pods         = [ tf-ssdmobilenet-default-1024-2-dbkln tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 tf-resnet50-4096-0-wx6qk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 tf-resnet50-4096-0-wx6qk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 tf-resnet50-4096-0-wx6qk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 tf-resnet50-4096-0-wx6qk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 tf-resnet50-4096-0-wx6qk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 tf-resnet50-4096-0-wx6qk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 tf-resnet50-4096-0-wx6qk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 tf-resnet50-4096-0-wx6qk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 tf-resnet50-4096-0-wx6qk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 tf-resnet50-4096-0-wx6qk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 tf-resnet50-4096-0-wx6qk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 tf-resnet50-4096-0-wx6qk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 tf-resnet50-4096-0-wx6qk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 tf-resnet50-4096-0-wx6qk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 tf-resnet50-4096-0-wx6qk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 tf-resnet50-4096-0-wx6qk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 tf-resnet50-4096-0-wx6qk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 tf-resnet50-4096-0-wx6qk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 tf-resnet50-4096-0-wx6qk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 tf-resnet50-4096-0-wx6qk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 tf-resnet50-4096-0-wx6qk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 tf-resnet50-4096-0-wx6qk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 tf-resnet50-4096-0-wx6qk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 tf-resnet50-4096-0-wx6qk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 tf-resnet50-4096-0-wx6qk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 tf-resnet50-4096-0-wx6qk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 tf-resnet50-4096-0-wx6qk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 tf-resnet50-4096-0-wx6qk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 tf-resnet50-4096-0-wx6qk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 tf-resnet50-4096-0-wx6qk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 tf-resnet50-4096-0-wx6qk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 tf-resnet50-4096-0-wx6qk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 tf-resnet50-4096-0-wx6qk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 tf-resnet50-4096-0-wx6qk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 tf-resnet50-4096-0-wx6qk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 tf-resnet50-4096-0-wx6qk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 tf-resnet50-4096-0-wx6qk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 tf-resnet50-4096-0-wx6qk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 tf-resnet50-4096-0-wx6qk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 tf-resnet50-4096-0-wx6qk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 tf-resnet50-4096-0-wx6qk ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 tf-resnet50-4096-0-wx6qk ]
+Temp List pods       = [ ]
+ 
+Found a pod to schedule=default/tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 Assigned Priority=7.000000
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 tf-resnet50-4096-0-wx6qk ]
+Temp List pods       = [ ]
+ 
+The pod GPU memory request CAN be satisfied.
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-quantfinetuned-512-0-mwvj8 tf-resnet50-4096-0-wx6qk ]
+Temp List pods       = [ ]
+ 
+2020/05/01 22:47:55 Nodes that fit:
+2020/05/01 22:47:55 kube-gpu-1
+2020/05/01 22:47:55 Calculated priorities: map[kube-gpu-1:45]
+Placed pod [default/tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7] on kube-gpu-1
+
+Scheduling Timestamp for tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 = 1588373275
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-resnet50-4096-0-wx6qk tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-resnet50-4096-0-wx6qk tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-resnet50-4096-0-wx6qk tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-resnet50-4096-0-wx6qk tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-resnet50-4096-0-wx6qk tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-resnet50-4096-0-wx6qk tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-resnet50-4096-0-wx6qk tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-resnet50-4096-0-wx6qk tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-resnet50-4096-0-wx6qk tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-resnet50-4096-0-wx6qk tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-resnet50-4096-0-wx6qk tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-resnet50-4096-0-wx6qk tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-resnet50-4096-0-wx6qk tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-resnet50-4096-0-wx6qk tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-resnet50-4096-0-wx6qk tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-resnet50-4096-0-wx6qk tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-resnet50-4096-0-wx6qk tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-resnet50-4096-0-wx6qk tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-resnet50-4096-0-wx6qk tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-resnet50-4096-0-wx6qk tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-resnet50-4096-0-wx6qk tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-resnet50-4096-0-wx6qk tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-resnet50-4096-0-wx6qk tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-resnet50-4096-0-wx6qk tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-resnet50-4096-0-wx6qk tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-resnet50-4096-0-wx6qk tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-resnet50-4096-0-wx6qk tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-resnet50-4096-0-wx6qk tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-resnet50-4096-0-wx6qk tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-resnet50-4096-0-wx6qk tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-resnet50-4096-0-wx6qk tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-resnet50-4096-0-wx6qk tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-resnet50-4096-0-wx6qk tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-resnet50-4096-0-wx6qk tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-resnet50-4096-0-wx6qk tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-resnet50-4096-0-wx6qk tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-resnet50-4096-0-wx6qk tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-resnet50-4096-0-wx6qk tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-resnet50-4096-0-wx6qk tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-resnet50-4096-0-wx6qk tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-resnet50-4096-0-wx6qk tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 ]
+Temp List pods       = [ ]
+ 
+Found a pod to schedule=default/tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 Assigned Priority=7.000000
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 ]
+Temp List pods       = [ ]
+ 
+The pod GPU memory request CAN be satisfied.
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 ]
+Temp List pods       = [ ]
+ 
+2020/05/01 22:48:44 Nodes that fit:
+2020/05/01 22:48:44 kube-gpu-1
+2020/05/01 22:48:44 Calculated priorities: map[kube-gpu-1:37]
+Placed pod [default/tf-ssdmobilenet-quantfinetuned-512-1-fmcs2] on kube-gpu-1
+
+Scheduling Timestamp for tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 = 1588373324
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 11
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-3-ssr64 tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 ]
+Temp List pods       = [ ]
+ 
+Found a pod to schedule=default/tf-resnet50-2048-0-clrsr Assigned Priority=9.000000
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 ]
+Temp List pods       = [ ]
+ 
+The pod GPU memory request CAN be satisfied.
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 ]
+Temp List pods       = [ ]
+ 
+2020/05/01 22:49:29 Nodes that fit:
+2020/05/01 22:49:29 kube-gpu-1
+2020/05/01 22:49:29 Calculated priorities: map[kube-gpu-1:6]
+Placed pod [default/tf-resnet50-2048-0-clrsr] on kube-gpu-1
+
+Scheduling Timestamp for tf-resnet50-2048-0-clrsr = 1588373369
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 tf-resnet50-2048-0-clrsr ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 tf-resnet50-2048-0-clrsr ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 tf-resnet50-2048-0-clrsr ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 tf-resnet50-2048-0-clrsr ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 tf-resnet50-2048-0-clrsr ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 tf-resnet50-2048-0-clrsr ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 tf-resnet50-2048-0-clrsr ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 tf-resnet50-2048-0-clrsr ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 tf-resnet50-2048-0-clrsr ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 tf-resnet50-2048-0-clrsr ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 tf-resnet50-2048-0-clrsr ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 tf-resnet50-2048-0-clrsr ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 tf-resnet50-2048-0-clrsr ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 tf-resnet50-2048-0-clrsr ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 tf-resnet50-2048-0-clrsr ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 tf-resnet50-2048-0-clrsr ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 tf-resnet50-2048-0-clrsr ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 tf-resnet50-2048-0-clrsr ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 tf-resnet50-2048-0-clrsr ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 tf-resnet50-2048-0-clrsr ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 tf-resnet50-2048-0-clrsr ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 tf-resnet50-2048-0-clrsr ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 tf-resnet50-2048-0-clrsr ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 tf-resnet50-2048-0-clrsr ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 tf-resnet50-2048-0-clrsr ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 tf-resnet50-2048-0-clrsr ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 tf-resnet50-2048-0-clrsr ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 tf-resnet50-2048-0-clrsr ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 tf-resnet50-2048-0-clrsr ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 tf-resnet50-2048-0-clrsr ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 tf-resnet50-2048-0-clrsr ]
+Temp List pods       = [ ]
+ 
+Found a pod to schedule=default/tf-resnet50-1024-0-j6s57 Assigned Priority=9.000000
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 tf-resnet50-2048-0-clrsr ]
+Temp List pods       = [ ]
+ 
+The pod GPU memory request CAN be satisfied.
+ 
+Available GPU Memory = 9
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-quantfinetuned-512-1-fmcs2 tf-resnet50-2048-0-clrsr ]
+Temp List pods       = [ ]
+ 
+2020/05/01 22:50:02 Nodes that fit:
+2020/05/01 22:50:02 kube-gpu-1
+2020/05/01 22:50:02 Calculated priorities: map[kube-gpu-1:95]
+Placed pod [default/tf-resnet50-1024-0-j6s57] on kube-gpu-1
+
+Scheduling Timestamp for tf-resnet50-1024-0-j6s57 = 1588373402
+ 
+Available GPU Memory = 7
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-resnet50-2048-0-clrsr tf-resnet50-1024-0-j6s57 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 7
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-resnet50-2048-0-clrsr tf-resnet50-1024-0-j6s57 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 7
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-resnet50-2048-0-clrsr tf-resnet50-1024-0-j6s57 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 7
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-resnet50-2048-0-clrsr tf-resnet50-1024-0-j6s57 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 7
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-resnet50-2048-0-clrsr tf-resnet50-1024-0-j6s57 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 7
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-resnet50-2048-0-clrsr tf-resnet50-1024-0-j6s57 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 7
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-resnet50-2048-0-clrsr tf-resnet50-1024-0-j6s57 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 7
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-resnet50-2048-0-clrsr tf-resnet50-1024-0-j6s57 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 7
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-resnet50-2048-0-clrsr tf-resnet50-1024-0-j6s57 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 7
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-resnet50-2048-0-clrsr tf-resnet50-1024-0-j6s57 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 7
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-resnet50-2048-0-clrsr tf-resnet50-1024-0-j6s57 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 7
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-resnet50-2048-0-clrsr tf-resnet50-1024-0-j6s57 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 7
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-resnet50-2048-0-clrsr tf-resnet50-1024-0-j6s57 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 7
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-resnet50-2048-0-clrsr tf-resnet50-1024-0-j6s57 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 7
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-resnet50-2048-0-clrsr tf-resnet50-1024-0-j6s57 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 7
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-resnet50-2048-0-clrsr tf-resnet50-1024-0-j6s57 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 7
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-resnet50-2048-0-clrsr tf-resnet50-1024-0-j6s57 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 7
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-resnet50-2048-0-clrsr tf-resnet50-1024-0-j6s57 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 7
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-resnet50-2048-0-clrsr tf-resnet50-1024-0-j6s57 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 7
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-resnet50-2048-0-clrsr tf-resnet50-1024-0-j6s57 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 7
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-resnet50-2048-0-clrsr tf-resnet50-1024-0-j6s57 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 7
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-resnet50-2048-0-clrsr tf-resnet50-1024-0-j6s57 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 7
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-resnet50-2048-0-clrsr tf-resnet50-1024-0-j6s57 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 7
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-resnet50-2048-0-clrsr tf-resnet50-1024-0-j6s57 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 7
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-resnet50-2048-0-clrsr tf-resnet50-1024-0-j6s57 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 7
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-resnet50-2048-0-clrsr tf-resnet50-1024-0-j6s57 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 7
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-resnet50-2048-0-clrsr tf-resnet50-1024-0-j6s57 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-resnet50-1024-0-j6s57 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-resnet50-1024-0-j6s57 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-resnet50-1024-0-j6s57 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-resnet50-1024-0-j6s57 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-resnet50-1024-0-j6s57 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-resnet50-1024-0-j6s57 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-resnet50-1024-0-j6s57 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-resnet50-1024-0-j6s57 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-resnet50-1024-0-j6s57 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-resnet50-1024-0-j6s57 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-resnet50-1024-0-j6s57 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-resnet50-1024-0-j6s57 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-resnet50-1024-0-j6s57 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-resnet50-1024-0-j6s57 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-resnet50-1024-0-j6s57 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 16
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-resnet50-1024-0-j6s57 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 ]
+Temp List pods       = [ ]
+ 
+Found a pod to schedule=default/tf-ssdmobilenet-default-1024-3-9sxb8 Assigned Priority=7.000000
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 ]
+Temp List pods       = [ ]
+ 
+The pod GPU memory request CAN be satisfied.
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 ]
+Temp List pods       = [ ]
+ 
+2020/05/01 22:50:52 Nodes that fit:
+2020/05/01 22:50:52 kube-gpu-1
+2020/05/01 22:50:52 Calculated priorities: map[kube-gpu-1:66]
+Placed pod [default/tf-ssdmobilenet-default-1024-3-9sxb8] on kube-gpu-1
+
+Scheduling Timestamp for tf-ssdmobilenet-default-1024-3-9sxb8 = 1588373452
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-default-1024-3-9sxb8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-default-1024-3-9sxb8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-default-1024-3-9sxb8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-default-1024-3-9sxb8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-default-1024-3-9sxb8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-default-1024-3-9sxb8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-default-1024-3-9sxb8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-default-1024-3-9sxb8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-default-1024-3-9sxb8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-default-1024-3-9sxb8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-default-1024-3-9sxb8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-default-1024-3-9sxb8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-default-1024-3-9sxb8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-default-1024-3-9sxb8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-default-1024-3-9sxb8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-default-1024-3-9sxb8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-default-1024-3-9sxb8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-default-1024-3-9sxb8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 18
+Running pods         = [ tf-ssdmobilenet-symmetrquantfinetuned-2048-0-hd6z7 tf-ssdmobilenet-default-1024-3-9sxb8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 ]
+Temp List pods       = [ ]
+ 
+Found a pod to schedule=default/onnx-mobilenet-4096-0-85x7h Assigned Priority=1.000000
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 ]
+Temp List pods       = [ ]
+ 
+The pod GPU memory request CAN be satisfied.
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 ]
+Temp List pods       = [ ]
+ 
+2020/05/01 22:51:37 Nodes that fit:
+2020/05/01 22:51:37 kube-gpu-1
+2020/05/01 22:51:37 Calculated priorities: map[kube-gpu-1:28]
+Placed pod [default/onnx-mobilenet-4096-0-85x7h] on kube-gpu-1
+
+Scheduling Timestamp for onnx-mobilenet-4096-0-85x7h = 1588373497
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+Found a pod to schedule=default/onnx-mobilenet-2048-0-tkvvl Assigned Priority=1.000000
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+The pod GPU memory request CAN be satisfied.
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h ]
+Temp List pods       = [ ]
+ 
+2020/05/01 22:52:34 Nodes that fit:
+2020/05/01 22:52:34 kube-gpu-1
+2020/05/01 22:52:34 Calculated priorities: map[kube-gpu-1:47]
+Placed pod [default/onnx-mobilenet-2048-0-tkvvl] on kube-gpu-1
+
+Scheduling Timestamp for onnx-mobilenet-2048-0-tkvvl = 1588373554
+ 
+Available GPU Memory = 23
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h onnx-mobilenet-2048-0-tkvvl ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 23
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h onnx-mobilenet-2048-0-tkvvl ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 23
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h onnx-mobilenet-2048-0-tkvvl ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 23
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h onnx-mobilenet-2048-0-tkvvl ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 23
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h onnx-mobilenet-2048-0-tkvvl ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 23
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h onnx-mobilenet-2048-0-tkvvl ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 23
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h onnx-mobilenet-2048-0-tkvvl ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 23
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h onnx-mobilenet-2048-0-tkvvl ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 23
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h onnx-mobilenet-2048-0-tkvvl ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 23
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h onnx-mobilenet-2048-0-tkvvl ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 23
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h onnx-mobilenet-2048-0-tkvvl ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 23
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h onnx-mobilenet-2048-0-tkvvl ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 23
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h onnx-mobilenet-2048-0-tkvvl ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 23
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h onnx-mobilenet-2048-0-tkvvl ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 23
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-4096-0-85x7h onnx-mobilenet-2048-0-tkvvl ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-2048-0-tkvvl ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-2048-0-tkvvl ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-2048-0-tkvvl ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-2048-0-tkvvl ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-2048-0-tkvvl ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-2048-0-tkvvl ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-2048-0-tkvvl ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-2048-0-tkvvl ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-2048-0-tkvvl ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-2048-0-tkvvl ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-2048-0-tkvvl ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-2048-0-tkvvl ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-2048-0-tkvvl ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-2048-0-tkvvl ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-2048-0-tkvvl ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-2048-0-tkvvl ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-2048-0-tkvvl ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-2048-0-tkvvl ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-2048-0-tkvvl ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 24
+Running pods         = [ tf-ssdmobilenet-default-1024-3-9sxb8 onnx-mobilenet-2048-0-tkvvl ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 31
+Running pods         = [ onnx-mobilenet-2048-0-tkvvl ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 31
+Running pods         = [ onnx-mobilenet-2048-0-tkvvl ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 31
+Running pods         = [ onnx-mobilenet-2048-0-tkvvl ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 31
+Running pods         = [ onnx-mobilenet-2048-0-tkvvl ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 31
+Running pods         = [ onnx-mobilenet-2048-0-tkvvl ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+Found a pod to schedule=default/tf-ssdmobilenet-default-1024-0-s9whv Assigned Priority=7.000000
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+The pod GPU memory request CAN be satisfied.
+ 
+Available GPU Memory = 32
+Running pods         = [ ]
+Temp List pods       = [ ]
+ 
+2020/05/01 22:53:21 Nodes that fit:
+2020/05/01 22:53:21 kube-gpu-1
+2020/05/01 22:53:21 Calculated priorities: map[kube-gpu-1:47]
+Placed pod [default/tf-ssdmobilenet-default-1024-0-s9whv] on kube-gpu-1
+
+Scheduling Timestamp for tf-ssdmobilenet-default-1024-0-s9whv = 1588373601
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
+ 
+Available GPU Memory = 25
+Running pods         = [ tf-ssdmobilenet-default-1024-0-s9whv ]
+Temp List pods       = [ ]
+ 
