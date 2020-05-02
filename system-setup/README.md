@@ -14,5 +14,5 @@ Finally, the results of our implementation are going to be compared with the [Al
 The following image describes the system so far:
 
 <p align="center">
-    <img src="images/cluster-image.png" width="400" height="400">
+    <img src="cluster-image.png" width="400" height="400">
 </p>
