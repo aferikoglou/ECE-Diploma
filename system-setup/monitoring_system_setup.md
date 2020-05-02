@@ -1,7 +1,7 @@
 # Monitoring system setup
 
-- [Node Exporter Setup](https://github.com/NVIDIA/gpu-monitoring-tools/tree/master/exporters/prometheus-dcgm) 
-- [Prometheus Setup](https://devopscube.com/setup-prometheus-monitoring-on-kubernetes/)
+- [Node Exporter installation guide](https://github.com/NVIDIA/gpu-monitoring-tools/tree/master/exporters/prometheus-dcgm) 
+- [Prometheus installation guide](https://devopscube.com/setup-prometheus-monitoring-on-kubernetes/)
 
 ## 1\. Node Exporter setup
 

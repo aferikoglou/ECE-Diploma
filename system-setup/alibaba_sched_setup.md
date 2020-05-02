@@ -1,6 +1,6 @@
 # Alibaba scheduler extension setup
 
-[Installation guide](https://github.com/AliyunContainerService/gpushare-scheduler-extender/blob/master/docs/install.md?spm=a2c65.11461447.0.0.5d8b51batZVMzf&file=install.md)
+- [Alibaba scheduler extension installation guide](https://github.com/AliyunContainerService/gpushare-scheduler-extender/blob/master/docs/install.md?spm=a2c65.11461447.0.0.5d8b51batZVMzf&file=install.md)
 
 ## 1\. Deploy GPU share scheduler extender
 

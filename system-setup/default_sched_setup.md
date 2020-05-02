@@ -1,8 +1,7 @@
 # Default GPU scheduler setup
 
-We follow the instructions shown in [NVIDIA/k8s-device-plugin](https://github.com/NVIDIA/k8s-device-plugin#preparing-your-gpu-nodes) github repository.
-
-We assume that the NVIDIA driver is installed in the GPU node.
+- We follow the instructions shown in [NVIDIA/k8s-device-plugin](https://github.com/NVIDIA/k8s-device-plugin#preparing-your-gpu-nodes) github repository.
+- We assume that the NVIDIA driver is installed in the GPU node.
 
 ## 1\. Install [nvidia-docker2](https://github.com/NVIDIA/nvidia-docker) (kube-gpu)
 
