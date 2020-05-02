@@ -25,7 +25,7 @@ kubectl get nodes --show-labels
 kubectl create -f PATH-TO-node-exporter-setup-DIR/node-exporter-setup/gpu-node-exporter-daemonset.yaml
 ```
 
-Check if everything works.
+### 1.3\. Testing
 
 ```bash
 curl 192.168.1.147:9100/metrics
@@ -50,12 +50,6 @@ kubectl create -f PATH-TO-prometheus-setup-DIR/prometheus-setup/config-map.yaml
 
 ```bash
 kubectl create -f PATH-TO-prometheus-setup-DIR/prometheus-setup/prometheus-deployment.yaml
-```
-
-Check the created deployment using the following command.
-
-```bash
-kubectl get deployments --namespace=monitoring
 ```
 
 ### 2.4\. Exposing Prometheus as a service

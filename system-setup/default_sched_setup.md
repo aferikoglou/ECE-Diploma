@@ -86,7 +86,6 @@ spec:
 
 kubectl create -f gpu-pod.yaml
 
-kubectl get pods
 ```
 
 In kube-gpu execute:
