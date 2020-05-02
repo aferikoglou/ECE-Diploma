@@ -33,10 +33,13 @@ var podGPUMemoryRequestMap map[string]int
 var runningPodsList *list.List
 var tmpList *list.List
 
+var runningPodsTimestampsMap map[string]int
+
 var FOUND_SCHEDULABLE_POD bool = true
 
-const PROMETHEUS_ENDPOINT string = "http://192.168.1.145:30000"
-const d int = 50
+const PROMETHEUS_ENDPOINT string = "http://192.168.1.146:30000"
+
+var d int
 
 const k int = 1
 
@@ -133,6 +136,8 @@ func main() {
 	runningPodsList = list.New()
 	tmpList = list.New()
 
+	runningPodsTimestampsMap = make(map[string]int)
+
 	quit := make(chan struct{})
 	defer close(quit)
 
@@ -166,13 +171,9 @@ func (s *Scheduler) ScheduleOne() {
 	// Check running GPU pod list if some of these pods are finished.
 	s.removeRunListPods()
 
-	// Get GPU Timeseries
-	freeGPUMemTS := getGPUMetricTS(PROMETHEUS_ENDPOINT, "dcgm_fb_free", d)
-	usedGPUMemTS := getGPUMetricTS(PROMETHEUS_ENDPOINT, "dcgm_fb_used", d)
-
 	// If the pod requests more GPU memory than the available add the pod to tempList
 	// and get the next pod.
-	for !Can_Be_Scheduled(freeGPUMemTS, usedGPUMemTS, p) {
+	for !Can_Be_Scheduled(p) {
 		// Save pod to tmpList.
 		tmpList.PushBack(p)
 		// Get next pod.
@@ -237,6 +238,12 @@ func (s *Scheduler) ScheduleOne() {
 		// decrease the available GPU memory.
 		runningPodsList.PushBack(p)
 		AVAIL_GPU_MEM -= podGPUMemoryRequestMap[p.Name]
+		// Save the scheduling timestamp for d calculation.
+		runningPodsTimestampsMap[p.Name] = int(time.Now().Unix())
+		fmt.Print("Scheduling Timestamp for ")
+		fmt.Print(p.Name)
+		fmt.Print(" = ")
+		fmt.Println(runningPodsTimestampsMap[p.Name])
 	}
 }
 
@@ -388,18 +395,44 @@ func (s *Scheduler) removeRunListPods() {
 			gpuMemoryReq, exists := podGPUMemoryRequestMap[pod_.Name]
 			if exists {
 				AVAIL_GPU_MEM += gpuMemoryReq
-				delete(podGPUMemoryRequestMap, pod_.Name);
+				delete(podGPUMemoryRequestMap, pod_.Name)
 			}
 
 			runningPodsList.Remove(e)
+			// Delete timestamp when the pod is finished
+			delete(runningPodsTimestampsMap, pod_.Name)
 		}
 	}
 }
 
-func getGPUMetricTS(PROMETHEUS_ENDPOINT string, GPU_METRIC string, d int) map[int]float64 {
+func dCalc(endTimestamp int32) {
+	const MIN_D int = 10
+
+	// Get map data sorted
+	timestamps := make([]int, 0)
+	for _, timestamp := range runningPodsTimestampsMap {
+		timestamps = append(timestamps, timestamp)
+	}
+
+	sort.Ints(timestamps)
+
+	oldestPodScedTimestamp := timestamps[0]
+
+	val := int(endTimestamp - int32(oldestPodScedTimestamp))
+	if val < MIN_D {
+		d = MIN_D
+	} else {
+		d = val
+	}
+}
+
+func getGPUMetricTS(PROMETHEUS_ENDPOINT string, GPU_METRIC string) map[int]float64 {
 	const STEP int = 1
 
 	endTimestamp := int32(time.Now().Unix())
+
+	// d Calculation
+	dCalc(endTimestamp)
 
 	startTimestamp := endTimestamp - int32(d)
 
@@ -481,13 +514,17 @@ func Harvest_Resource(usedGPUMemTS map[int]float64) int {
 	return usedGPUMemory
 }
 
-func Can_Be_Scheduled(freeGPUMemTS map[int]float64, usedGPUMemTS map[int]float64, p *v1.Pod) bool {
+func Can_Be_Scheduled(p *v1.Pod) bool {
 	if podGPUMemoryRequestMap[p.Name] <= AVAIL_GPU_MEM {
 		fmt.Println("The pod GPU memory request CAN be satisfied.")
 		return true
 	}
 
 	fmt.Println("The pod GPU memory request CANNOT be satisfied.")
+
+        // Get GPU Timeseries
+	freeGPUMemTS := getGPUMetricTS(PROMETHEUS_ENDPOINT, "dcgm_fb_free")
+	usedGPUMemTS := getGPUMetricTS(PROMETHEUS_ENDPOINT, "dcgm_fb_used")
 
 	if Can_Colocate(freeGPUMemTS) {
 		harvestedAvailGPUMemory := 32 - Harvest_Resource(usedGPUMemTS)
@@ -503,12 +540,10 @@ func Can_Be_Scheduled(freeGPUMemTS map[int]float64, usedGPUMemTS map[int]float64
 
 	fmt.Println("The pod GPU memory request CANNOT be satisfied through GPU memory HARVESTING.")
 
-	/*
-	autoCor := AutoCorrelation(freeGPUMemTS, k)
-	if autoCor > 0 {
-		const steps int = 1
+	if AutoCorrelation(freeGPUMemTS, k) > 0 {
+		const steps int = 10
 
-		freeGPUMemPred := AR_1(freeGPUMemTS, autoCor, steps)
+		freeGPUMemPred := AR_1(freeGPUMemTS,  steps)
 
 		fmt.Print("Free GPU Memory Prediction in ")
 		fmt.Print(steps)
@@ -522,7 +557,6 @@ func Can_Be_Scheduled(freeGPUMemTS map[int]float64, usedGPUMemTS map[int]float64
 	}
 
 	fmt.Println("The pod GPU memory request CANNOT be satisfied through PEAK PREDICTION.")
-	*/
 
 	return false
 }
@@ -579,7 +613,7 @@ func AutoCorrelation(freeGPUMemTS map[int]float64, k int) float64 {
 	return autocorrelation
 }
 
-func AR_1(freeGPUMemTS map[int]float64, autocorrelation float64, steps int) int {
+func AR_1(freeGPUMemTS map[int]float64, steps int) int {
 	// Get map data sorted
 	keys := make([]int, 0)
 	for k, _ := range freeGPUMemTS {
@@ -589,16 +623,12 @@ func AR_1(freeGPUMemTS map[int]float64, autocorrelation float64, steps int) int 
         sort.Ints(keys)
 
 	var N int = d + 1
-	var sum float64 = 0.0   // x_i summary
-	var sum_2 float64 = 0.0 // x_i * x_i summary
 
         values := make([]float64, 0)
         for _, timestamp := range keys {
 		val := freeGPUMemTS[timestamp]
 
 		values = append(values, val)
-		sum += val
-		sum_2 += val * val
 	}
 
 	fmt.Println(" ")
@@ -606,24 +636,37 @@ func AR_1(freeGPUMemTS map[int]float64, autocorrelation float64, steps int) int 
 
 	fmt.Print("Values                   = ")
 	fmt.Println(values)
+	fmt.Print("x                        = ")
+	fmt.Println(values[0:(N-2)])
+	fmt.Print("y                        = ")
+	fmt.Println(values[1:(N-1)])
 
-	var mean float64 = sum / float64(N)
+	// Linear Regression - Least Squares
+	var sum_x float64 = 0.0
+	var sum_y float64 = 0.0
+	var sum_xy float64 = 0.0
+	var sum_x_2 float64 = 0.0
 
-	mean_val_squared := sum_2 / float64(N)
-	var variance float64 = mean_val_squared - mean * mean
+	for i := 0; i < (N - 1); i++ {
+		sum_x += values[i]
+		sum_y += values[i + 1]
+		sum_xy += values[i] * values[i + 1]
+		sum_x_2 += values[i] * values[i]
+	}
+
+	var mean_x float64 = sum_x / float64(N - 1)
+	var mean_y float64 = sum_y / float64(N - 1)
+	var numerator float64 = sum_xy - float64(N - 1) * mean_x * mean_y
+	var denominator float64 = sum_x_2 - float64(N - 1) * mean_x * mean_x
 
 	// Calculate model parameters
-	var phi_1 float64 = autocorrelation
-	var phi_0 float64 = mean * (1 - phi_1)
-	var error_variance float64 = variance * (1 - phi_1 * phi_1)
-	var error_standard_deviation float64 = math.Sqrt(error_variance)
+	var phi_1 float64 = numerator / denominator
+	var phi_0 float64 = mean_y - phi_1 * mean_x
 
 	fmt.Print("φ_0                      = ")
 	fmt.Println(phi_0)
 	fmt.Print("φ_1                      = ")
 	fmt.Println(phi_1)
-	fmt.Print("Error Standard Deviation = ")
-	fmt.Println(error_standard_deviation)
 	fmt.Print("MODEL : ")
 	fmt.Print("y_i = ")
 	fmt.Print(phi_0)
@@ -637,10 +680,10 @@ func AR_1(freeGPUMemTS map[int]float64, autocorrelation float64, steps int) int 
 	for i:=1; i < steps + 1; i++ {
 		pred := phi_0 + phi_1 * val
 
-		// fmt.Print("Prediction at step ")
-		// fmt.Print(i)
-		// fmt.Print(" = ")
-		// fmt.Println(pred)
+		fmt.Print("Prediction at step ")
+		fmt.Print(i)
+		fmt.Print(" = ")
+		fmt.Println(pred)
 
 		val = pred
 	}
