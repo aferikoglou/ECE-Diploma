@@ -1,4 +1,4 @@
-# Kubernetes cluster - GPU Support
+# Default GPU scheduler setup
 
 We follow the instructions shown in [NVIDIA/k8s-device-plugin](https://github.com/NVIDIA/k8s-device-plugin#preparing-your-gpu-nodes) github repository.
 
@@ -6,7 +6,7 @@ We assume that the NVIDIA driver is installed in the GPU node.
 
 ## 1\. Install [nvidia-docker2](https://github.com/NVIDIA/nvidia-docker) (kube-gpu)
 
-Add the package repositories
+Add the package repositories.
 
 ```
 distribution=$(. /etc/os-release;echo $ID$VERSION_ID)
@@ -15,7 +15,7 @@ curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.li
 sudo apt-get update && sudo apt-get install -y nvidia-docker2
 ```
 
-Restart docker
+Restart docker.
 
 ```
 sudo systemctl restart docker
@@ -29,11 +29,11 @@ sudo apt-get install nvidia-container-runtime
 
 ## 3\. Enable nvidia runtime as default runtime on node (kube-gpu)
 
-Edit the docker daemon config file
+Edit the docker daemon config file.
 
 ```
 vim /etc/docker/daemon.json
----
+
 {
     "default-runtime": "nvidia",
     "runtimes": {
@@ -43,10 +43,10 @@ vim /etc/docker/daemon.json
         }
     }
 }
----
+
 ```
 
-Restart kube-gpu kubelet
+Restart kube-gpu kubelet.
 
 ```
 systemctl restart kubelet
@@ -54,25 +54,24 @@ systemctl restart kubelet
 
 ## 4\. Enable GPU support in Kubernetes (kube-master)
 
-Deploy the following daemonset
+Deploy the following daemonset.
 
 ```
-kubectl create -f .../default-sched-setup/nvidia-device-plugin.yml
+kubectl create -f PATH-TO-default-sched-setup-DIR/default-sched-setup/nvidia-device-plugin.yml
 ```
 
 ## 5\. Check if GPU support is enabled in Kubernetes cluster (kube-master)
 
-Check if GPU appears in the allocated resources section
+Check if GPU appears in the allocated resources section.
 
 ```
 kubectl describe nodes kube-gpu
 ```
-Run GPU pod
+Create a GPU pod.
 
 ```
 vim gpu-pod.yaml
 
----
 apiVersion: v1
 kind: Pod
 metadata:
@@ -84,14 +83,13 @@ spec:
       resources:
         limits:
           nvidia.com/gpu: 1
----
 
-kubectl apply -f gpu-pod.yaml
+kubectl create -f gpu-pod.yaml
 
 kubectl get pods
 ```
 
-In kube-gpu execute
+In kube-gpu execute:
 
 ```
 nvidia-smi
