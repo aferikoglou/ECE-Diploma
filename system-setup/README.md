@@ -9,7 +9,7 @@ We have enabled Kubernetes GPU support in order to use the GPU of kube-gpu node 
 
 We have also created a monitoring mechanism (GPU Node Exporter / Prometheus TSDB) in order to get GPU metrics and use them in our custom scheduler (*monitoring_system_setup.md* / *custom_sched_setup.md*).
 
-Finally, the results of our implementation are going to be compared with the [Alibaba GPUshare scheduler extender](https://github.com/AliyunContainerService/gpushare-scheduler-extender) (*alibaba_sched_setup.md*).
+Finally, the results of our implementation are going to be compared with the [Alibaba GPU sharing scheduler](https://github.com/AliyunContainerService/gpushare-scheduler-extender) (*alibaba_sched_setup.md*).
 
 The following image describes the system so far.
 
