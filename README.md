@@ -1,6 +1,6 @@
 # Kubernetes GPU Scheduling
 
-In this project we try to create a GPU Kubernetes scheduler and compare it with the Alibaba GPU sharing scheduler extender.
+In this project we try to create a GPU Kubernetes scheduler and compare it with the Alibaba GPU sharing scheduler extension.
 
 In __system-setup__ folder the instructions of setting up the system I have used can be found.
 
