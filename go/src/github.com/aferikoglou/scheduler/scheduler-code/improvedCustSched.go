@@ -28,7 +28,7 @@ const schedulerName = "improved-custom-scheduler"
 
 const PROMETHEUS_ENDPOINT string = "http://192.168.1.146:30000"
 
-const schedDelay int = 0 // sec
+const schedDelay int = 6 // sec
 
 // Resource Harvesting Constants
 const covThr float64 = 0.5
