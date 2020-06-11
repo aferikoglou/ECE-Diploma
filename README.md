@@ -1,6 +1,6 @@
 # Kubernetes GPU Scheduling
 
-In this project we try to create a GPU Kubernetes scheduler and compare it with the Alibaba GPU sharing scheduler extension.
+In this project we try to create a GPU Kubernetes scheduler and compare it with the Default Kubernetes GPU scheduler extension and the Alibaba GPU sharing scheduler extension.
 
 In __system-setup__ folder the instructions of setting up the system I have used can be found.
 
@@ -11,33 +11,18 @@ Our custom scheduler is based on [Kube-Knots](docs/papers).
 
 ## Getting Started
 
-These instructions will get you a copy of the project on your local machine.
+These instructions will get you a copy of the project on your cluster.
 
 ## Prerequisites
 
 
 ## Setup
 
-### Workload Generator / Monitoring System
-
-
-### Custom Scheduler
-
 
 ## Usage
 
-### Workload Generator / Monitoring System
-
-
-### Custom Scheduler
-
 
 ## Results
-
-### Workload Generator / Monitoring System
-
-
-### Custom Scheduler
 
 
 ## Author
