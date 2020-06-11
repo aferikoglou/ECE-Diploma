@@ -11,8 +11,12 @@ We have also created a monitoring mechanism (GPU Node Exporter - Prometheus TSDB
 
 Finally, the results of our implementation are going to be compared with the [Alibaba GPU sharing scheduler](https://github.com/AliyunContainerService/gpushare-scheduler-extender) (*alibaba_sched_setup.md*).
 
-The following image describes the system so far:
+The following image describes the system:
 
 <p align="center">
     <img src="cluster-image.png" width="400" height="400">
 </p>
+
+After the initial system setup the *setup.sh* script can be used.
+
+Finally, you can enable MPS service on kube-gpu node by executing *MPS.sh* script.
