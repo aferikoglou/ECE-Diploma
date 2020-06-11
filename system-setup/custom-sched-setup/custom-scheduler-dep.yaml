@@ -18,4 +18,6 @@ spec:
       containers:
         - name: custom-scheduler
           image: aferikoglou/scheduler:v0.1
-          imagePullPolicy: Always 
+          imagePullPolicy: Always
+      nodeSelector:
+          kubernetes.io/hostname: kube-cpu 

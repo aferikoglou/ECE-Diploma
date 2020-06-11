@@ -9,22 +9,23 @@ class Job:
 	# Job class constructor
 	def __init__ (self, YAML_path):
 		# YAML Path
-		self.__YAML_path                 = YAML_path
+		self.__YAML_path                   = YAML_path
 		# Job Fields
-		self.__Job_name                  = None
-		self.__Job_is_applied            = False
-		self.__Job_creation_timestamp    = None
-		self.__Job_start_time            = None
-		self.__Job_completion_time       = None
+		self.__Job_name                    = None
+		self.__Job_is_applied              = False
+		self.__Job_creation_timestamp      = None
+		self.__Job_start_time              = None
+		self.__Job_completion_time         = None
 		# Pod Fields
-		self.__Pod_name                  = None
-		self.__Pod_creation_timestamp    = None
-		self.__Pod_start_time            = None
-		self.__Pod_container_started_at  = None
-		self.__Pod_container_finished_at = None
-		self.__Pod_container_logs        = None
-		self.__Pod_container_90percile   = None
-		self.__Pod_container_99percile   = None
+		self.__Pod_name                    = None
+		self.__Pod_creation_timestamp      = None
+		self.__Pod_start_time              = None
+		self.__Pod_container_restart_count = None
+		self.__Pod_container_started_at    = None
+		self.__Pod_container_finished_at   = None
+		self.__Pod_container_logs          = None
+		self.__Pod_container_90percile     = None
+		self.__Pod_container_99percile     = None
 
 		# Parse YAML file (Job_name)
 		self.__parse_YAML(YAML_path)
@@ -90,8 +91,9 @@ class Job:
 				self.__Pod_creation_timestamp = CoreV1API_response.metadata.creation_timestamp
 				self.__Pod_start_time         = CoreV1API_response.status.start_time
 				if CoreV1API_response.status.container_statuses != None and CoreV1API_response.status.container_statuses[0].state.terminated != None:
-					self.__Pod_container_started_at  = CoreV1API_response.status.container_statuses[0].state.terminated.started_at
-					self.__Pod_container_finished_at = CoreV1API_response.status.container_statuses[0].state.terminated.finished_at
+					self.__Pod_container_restart_count = CoreV1API_response.status.container_statuses[0].restart_count
+					self.__Pod_container_started_at    = CoreV1API_response.status.container_statuses[0].state.terminated.started_at
+					self.__Pod_container_finished_at   = CoreV1API_response.status.container_statuses[0].state.terminated.finished_at
 			except ApiException as e:
 				print("Exception when calling CoreV1API->read_namespaced_pod: %s\n" % e)
 
@@ -132,6 +134,7 @@ class Job:
 		self.__Pod_container_99percile = parts[8].split(':')[1]
 
 		return  """Job Name                                     = """ + self.__Job_name + '\n' + \
+			"""Container Restart Count                      = """ + str(self.__Pod_container_restart_count) + '\n' + \
 			"""Job_Start_Time - Job_Creation_Timestamp      = """ + str(self.__Job_start_time - self.__Job_creation_timestamp) + '\n' + \
 			"""Pod_Creation_Timestamp - Job_Start_Time      = """ + str(self.__Pod_creation_timestamp - self.__Job_start_time) + '\n' + \
 			"""Pod_Start_Time - Pod_Creation_Timestamp      = """ + str(self.__Pod_start_time - self.__Pod_creation_timestamp) + '\n' + \
@@ -148,16 +151,17 @@ class Job:
 	
 	# Returns current Job state
 	def __get_state (self):
-		print("Job Name                  : %s" % self.__Job_name)
-		print("Job Creation Timestamp    : %s" % self.__Job_creation_timestamp)
-		print("Job Start Time            : %s" % self.__Job_start_time)
-		print("Job Completion Time       : %s" % self.__Job_completion_time)
+		print("Job Name                    : %s" % self.__Job_name)
+		print("Job Creation Timestamp      : %s" % self.__Job_creation_timestamp)
+		print("Job Start Time              : %s" % self.__Job_start_time)
+		print("Job Completion Time         : %s" % self.__Job_completion_time)
 
-		print("Pod Name                  : %s" % self.__Pod_name)
-		print("Pod Creation Timestamp    : %s" % self.__Pod_creation_timestamp)
-		print("Pod Start Time            : %s" % self.__Pod_start_time)
-		print("Pod Container Started at  : %s" % self.__Pod_container_started_at)
-		print("Pod Container Finished at : %s" % self.__Pod_container_finished_at)
-		print("Pod Container 90%-ile     : %s ms" % self.__Pod_container_90percile)
-		print("Pod Container 99%-ile     : %s ms" % self.__Pod_container_99percile)
+		print("Pod Name                    : %s" % self.__Pod_name)
+		print("Pod Container Restart Count : %s" % self.__Pod_container_restart_count)
+		print("Pod Creation Timestamp      : %s" % self.__Pod_creation_timestamp)
+		print("Pod Start Time              : %s" % self.__Pod_start_time)
+		print("Pod Container Started at    : %s" % self.__Pod_container_started_at)
+		print("Pod Container Finished at   : %s" % self.__Pod_container_finished_at)
+		print("Pod Container 90%-ile       : %s ms" % self.__Pod_container_90percile)
+		print("Pod Container 99%-ile       : %s ms" % self.__Pod_container_99percile)
 

@@ -28,7 +28,7 @@
 					},
 					{
 						"queries"  : 1024,
-						"replicas" : 0
+						"replicas" : 5
 					},
 					{
 						"queries"  : 2048,
@@ -81,7 +81,7 @@
 					},
 					{
 						"queries"  : 1024,
-						"replicas" : 0
+						"replicas" : 5
 					},
 					{
 						"queries"  : 2048,
@@ -134,7 +134,7 @@
 					},
 					{
 						"queries"  : 1024,
-						"replicas" : 20 
+						"replicas" : 5
 					},
 					{
 						"queries"  : 2048,
@@ -183,7 +183,7 @@
 					},
 					{
 						"queries"  : 512,
-						"replicas" : 0
+						"replicas" : 5
 					},
 					{
 						"queries"  : 1024,
@@ -232,7 +232,7 @@
 					},
 					{
 						"queries"  : 256,
-						"replicas" : 0
+						"replicas" : 5
 					},
 					{
 						"queries"  : 512,

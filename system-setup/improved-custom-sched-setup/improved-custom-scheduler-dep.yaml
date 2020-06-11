@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: improved-custom-scheduler
+  labels:
+    app: improved-custom-scheduler
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: improved-custom-scheduler
+  template:
+    metadata:
+      labels:
+        app: improved-custom-scheduler
+    spec:
+      serviceAccount: improved-custom-scheduler
+      containers:
+        - name: improved-custom-scheduler
+          image: aferikoglou/scheduler:v0.2
+          imagePullPolicy: Always
+      nodeSelector:
+          kubernetes.io/hostname: kube-cpu 

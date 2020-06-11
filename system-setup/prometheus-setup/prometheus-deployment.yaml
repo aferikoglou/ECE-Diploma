@@ -26,6 +26,8 @@ spec:
               mountPath: /etc/prometheus/
             - name: prometheus-storage-volume
               mountPath: /prometheus/
+      nodeSelector:
+        kubernetes.io/hostname: kube-cpu
       volumes:
         - name: prometheus-config-volume
           configMap:

@@ -6,6 +6,7 @@ MODE=${2}
 DEFAULT_SCHED_SETUP_DIR='/root/system-setup/default-sched-setup/'
 ALIBABA_SCHED_SETUP_DIR='/root/system-setup/alibaba-sched-setup/'
 CUSTOM_SCHED_SETUP_DIR='/root/system-setup/custom-sched-setup/'
+IMPROVED_CUSTOM_SCHED_SETUP_DIR='/root/system-setup/improved-custom-sched-setup/'
 NODE_EXPORTER_SETUP_DIR='/root/system-setup/node-exporter-setup/'
 PROMETHEUS_SETUP_DIR='/root/system-setup/prometheus-setup/'
 
@@ -81,6 +82,23 @@ then
 		echo "a) ENABLE"
 		echo "b) DISABLE"
 	fi
+elif [ "${MECH}" == "IMPROVED_CUSTOM_SCHED" ];
+then
+	if [ "${MODE}" == "ENABLE" ];
+	then
+		kubectl create -f ${IMPROVED_CUSTOM_SCHED_SETUP_DIR}'improved-custom-scheduler-rbac.yaml'
+
+		kubectl create -f ${IMPROVED_CUSTOM_SCHED_SETUP_DIR}'improved-custom-scheduler-dep.yaml'
+	elif [ "${MODE}" == "DISABLE" ];
+	then
+		kubectl delete -f ${IMPROVED_CUSTOM_SCHED_SETUP_DIR}'improved-custom-scheduler-dep.yaml'
+
+		kubectl delete -f ${IMPROVED_CUSTOM_SCHED_SETUP_DIR}'improved-custom-scheduler-rbac.yaml'
+	else
+		echo "Not supported. There are two possible modes:"
+		echo "a) ENABLE"
+		echo "b) DISABLE"
+	fi
 elif [ "${MECH}" == "NODE_EXPORTER" ];
 then
 	if [ "${MODE}" == "ENABLE" ];
@@ -132,7 +150,9 @@ else
 	echo "a) DEFAULT_SCHED"
 	echo "b) ALIBABA_SCHED"
 	echo "c) CUSTOM_SCHED"
-	echo "d) NODE_EXPORTER"
-	echo "e) PROMETHEUS"
+	echo "d) IMPROVED_CUSTOM_SCHED"
+	echo "e) NODE_EXPORTER"
+	echo "f) PROMETHEUS"
 	echo "WARNING: You cannot enable DEFAULT_SCHED and ALIBABA_SCHED at the same time"
+	echo "         CUSTOM_SCHED and IMPROVED_CUSTOM_SCHED require NODE_EXPORTER and PROMETHEUS"
 fi

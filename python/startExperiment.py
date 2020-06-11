@@ -21,10 +21,20 @@ def mkdir_p(path):
             pass
         else: raise
 
+def str2bool(v):
+    if isinstance(v, bool):
+       return v
+    if v.lower() in ('yes', 'true', 't', 'y', '1'):
+        return True
+    elif v.lower() in ('no', 'false', 'f', 'n', '0'):
+        return False
+    else:
+        raise argparse.ArgumentTypeError('Boolean value expected.')
+
 def workloadGenerator(JobList, MIN, MAX, DELAY_SEED, SUFFLE_SEED):
-	# Define seed for the random number generator
+	##### Define seed for the random number generator #####
 	random.seed(DELAY_SEED)
-	# Suffle JobList
+	##### Suffle JobList #####
 	random.Random(SUFFLE_SEED).shuffle(JobList)
 	for index, job in enumerate(JobList, start=1):
 		d = random.randint(MIN, MAX)
@@ -44,22 +54,22 @@ def exportMetrics(startTimestamp, endTimestamp, workloadOutputDirPath, workloadS
 parser = argparse.ArgumentParser(description='A script that executes an experiment. Sends a workload to my Kubernetes cluster and exports GPU metrics.')
 parser.add_argument('--WORKLOAD_INPUT_DIR', type=str, required=True, help='The path to the input directory.')
 parser.add_argument('--WORKLOAD_OUTPUT_DIR', type=str, required=True, help='The path to the output directory.')
-# parser.add_argument('--EXPERIMENT_DIR', type=str, required=True, help='The path to the experiment directory.')
 parser.add_argument('--MIN', type=int, required=True, help='The minimum delay between the creation of two Jobs.')
 parser.add_argument('--MAX', type=int, required=True, help='The maximum delay between the creation of two Jobs.')
 parser.add_argument('--DELAY_SEED', type=int, required=True, help='The seed for the delay random number generator.')
 parser.add_argument('--SUFFLE_SEED', type=int, required=True, help='The seed for the Job list suffling.')
+parser.add_argument('--EXPORT_METRICS', type=str2bool, required=True, help='Defines whether the GPU metrics are going to be exported.')
 parser.add_argument('--METRICS', nargs='+', type=str, required=True, help='The GPU metrics that are going to be exported.')
 
 args = parser.parse_args()
 
 WORKLOAD_INPUT_DIR  = args.WORKLOAD_INPUT_DIR
 WORKLOAD_OUTPUT_DIR = args.WORKLOAD_OUTPUT_DIR
-EXPERIMENT_DIR      = '/root/monitoring-files/' + WORKLOAD_OUTPUT_DIR.split('/')[3] # args.EXPERIMENT_DIR
 MIN                 = args.MIN
 MAX                 = args.MAX
 DELAY_SEED          = args.DELAY_SEED
 SUFFLE_SEED         = args.SUFFLE_SEED
+EXPORT_METRICS      = args.EXPORT_METRICS
 METRICS             = args.METRICS
 
 ##### Create the Job list #####
@@ -82,61 +92,72 @@ workGenThread.start()
 ##### Get GPU metrics until all jobs are finished #####
 workloadStartTimestamp = int(time.time())
 
-# Create output file path
+##### Create output file path #####
 workloadOutputFilePath = WORKLOAD_OUTPUT_DIR + '.txt'
 
-# Create output directories
-workloadOutputDirPath = WORKLOAD_OUTPUT_DIR 
-mkdir_p(workloadOutputDirPath)
-for metric in METRICS:
-	mkdir_p(workloadOutputDirPath + '/' + metric)
-
 startTimestamp = workloadStartTimestamp
-currentTimestamp = workloadStartTimestamp
-while len(JobList) > 0:
-	if currentTimestamp - startTimestamp > 450:
-		# Execute Go monitoring program
-		exportMetrics(startTimestamp, currentTimestamp, workloadOutputDirPath, workloadStartTimestamp)
-		
-		startTimestamp = currentTimestamp + 1
-	
-	time.sleep(5)
+currentTimestamp = 0
 
-	# Remove Finished Jobs from JobList
+if EXPORT_METRICS:
+	##### Create output directories #####
+	workloadOutputDirPath = WORKLOAD_OUTPUT_DIR 
+	mkdir_p(workloadOutputDirPath)
+	for metric in METRICS:
+		mkdir_p(workloadOutputDirPath + '/' + metric)
+	
+	currentTimestamp = workloadStartTimestamp
+
+while len(JobList) > 0:
+	##### Remove Finished Jobs from JobList #####
 	newJobList = []
 	for job in JobList:
 		if job.is_applied() and job.is_completed():
-			# Write Job results to file
+			##### Write Job results to file #####
 			with open(workloadOutputFilePath, "a") as f:
 				f.write(job.get_Job_stats())
-			# Delete Job
+			##### Delete Job #####
 			job.delete_job()
 		else:
 			newJobList.append(job)
 
 	JobList = newJobList
-	currentTimestamp = int(time.time())
+
+        if EXPORT_METRICS:
+		if currentTimestamp - startTimestamp > 450:
+			##### Execute Go monitoring program #####
+			exportMetrics(startTimestamp, currentTimestamp, workloadOutputDirPath, workloadStartTimestamp)
+
+			startTimestamp = currentTimestamp + 1
+
+		currentTimestamp = int(time.time())
+
+	time.sleep(5)
 
 endTimestamp = int(time.time())
 
-exportMetrics(startTimestamp, endTimestamp, workloadOutputDirPath, workloadStartTimestamp)
-
-##### Concatenate .csv files to combined.csv #####
-for metric in METRICS:
-	os.chdir(workloadOutputDirPath + '/' + metric)
-
-	fileList = glob.glob("*.csv")
+d = endTimestamp - workloadStartTimestamp
  
-	dfList = []
-	for filename in sorted(fileList):
-		df = pandas.read_csv(filename, header=None)
-		dfList.append(df)
+##### Write overall duration #####
+with open(workloadOutputFilePath, "a") as f:
+	f.write('Overall Duration                             = ')
+	f.write(str(d))
+	f.write(' sec\n')
+
+if EXPORT_METRICS:
+	exportMetrics(startTimestamp, endTimestamp, workloadOutputDirPath, workloadStartTimestamp)
+
+	##### Concatenate .csv files to combined.csv #####
+	for metric in METRICS:
+		os.chdir(workloadOutputDirPath + '/' + metric)
+
+		fileList = glob.glob("*.csv")
+ 
+		dfList = []
+		for filename in sorted(fileList):
+			df = pandas.read_csv(filename, header=None)
+			dfList.append(df)
     
-	concatDf = pandas.concat(dfList,axis=0)
+		concatDf = pandas.concat(dfList,axis=0)
  
-	concatDf.to_csv("combined.csv", index=None, header=False, encoding='utf-8-sig')
+		concatDf.to_csv("combined.csv", index=None, header=False, encoding='utf-8-sig')
 
-	SCHED_MECH = WORKLOAD_OUTPUT_DIR.split('/')[4].split('_')[1]
-	
-	dst = EXPERIMENT_DIR + '/OVERALL/' + metric + '/combined_' + SCHED_MECH + '.csv'
-	copyfile('combined.csv', dst)
