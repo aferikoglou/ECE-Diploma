@@ -24,18 +24,18 @@ def createSinglePlot (CSVFilename, schedMech, METRIC):
 
 	series.plot()
 
-	plt.title(schedMech + ' scheduler ' + METRIC + ' plot') # , fontsize=TITLE_FONTSIZE)
+	plt.title(schedMech + ' scheduler ' + METRIC + ' plot', fontweight='bold') # , fontsize=TITLE_FONTSIZE)
 
-	plt.xlabel('Time (s)') # , fontsize=XLABEL_FONTSIZE)
+	plt.xlabel('Time (s)', fontweight='bold') # , fontsize=XLABEL_FONTSIZE)
 	
 	if   METRIC == 'dcgm_gpu_utilization':	
-		plt.ylabel(METRIC + ' (%)') # , fontsize=YLABEL_FONTSIZE)
+		plt.ylabel(METRIC + ' (%)', fontweight='bold') # , fontsize=YLABEL_FONTSIZE)
 	elif METRIC == 'dcgm_power_usage':
-		plt.ylabel(METRIC + ' (W)')
+		plt.ylabel(METRIC + ' (W)', fontweight='bold')
 	elif METRIC == 'dcgm_fb_used' or METRIC == 'dcgm_fb_free':
-		plt.ylabel(METRIC + ' (MiB)')
+		plt.ylabel(METRIC + ' (MiB)', fontweight='bold')
 	elif METRIC == 'dcgm_memory_clock' or METRIC == 'dcgm_sm_clock':
-		plt.ylabel(METRIC + ' (MHz)')
+		plt.ylabel(METRIC + ' (MHz)', fontweight='bold')
 	
 	plt.tight_layout(pad=PAD, w_pad=W_PAD, h_pad=H_PAD)
 

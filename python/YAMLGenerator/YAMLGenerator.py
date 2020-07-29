@@ -23,6 +23,7 @@ def defaultTemplate(name, container_name, image_name, command):
              "name": str(name)
             },
             "spec": {
+              "backoffLimit": 20,
               "parallelism": 1,
               "completions": 1,
               "template": {
@@ -67,6 +68,7 @@ def alibabaTemplate(name, container_name, image_name, command, memory_request):
             "name": str(name)
            },
            "spec": {
+             "backoffLimit": 20,  
              "parallelism": 1,
              "completions": 1,
              "template": { 
@@ -216,10 +218,11 @@ for i in range(TEMPLATE_NUM):
 				out = alibabaTemplate(name + str(k), container_name, image_name, command, getOverprovisionedMemory(31, memory_request_GB, OVERPROV_PERC))
 			elif TEMPLATE == 'CUSTSCHED':
 				scheduler_name = 'custom-scheduler'
-				out = custschedTemplate(name + str(k), scheduler_name, container_name, image_name, command, getOverprovisionedMemory(32, memory_request_GB, OVERPROV_PERC))
-			elif TEMPLATE == 'IMPROVEDCUSTSCHED':
-				scheduler_name = 'improved-custom-scheduler'
-				out = custschedTemplate(name + str(k), scheduler_name, container_name, image_name, command, getOverprovisionedMemoryMiB(32510, memory_request_MiB, OVERPROV_PERC))
+				out = custschedTemplate(name + str(k), scheduler_name, container_name, image_name, command, getOverprovisionedMemoryMiB(32510, memory_request_MiB, OVERPROV_PERC)) 
+			# custschedTemplate(name + str(k), scheduler_name, container_name, image_name, command, getOverprovisionedMemory(32, memory_request_GB, OVERPROV_PERC))
+			# elif TEMPLATE == 'IMPROVEDCUSTSCHED':
+			#	scheduler_name = 'improved-custom-scheduler'
+			#	out = custschedTemplate(name + str(k), scheduler_name, container_name, image_name, command, getOverprovisionedMemoryMiB(32510, memory_request_MiB, OVERPROV_PERC))
 			else:
 				out = defaultTemplate(name + str(k), container_name, image_name, command)
 

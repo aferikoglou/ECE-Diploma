@@ -3,6 +3,7 @@ kind: Job
 metadata:
   name: tf-ssdmobilenet-default-1024-0
 spec:
+  backoffLimit: 20
   completions: 1
   parallelism: 1
   template:
@@ -21,4 +22,5 @@ spec:
         resources:
           limits:
             nvidia.com/gpu: 1
+      hostIPC: true
       restartPolicy: OnFailure

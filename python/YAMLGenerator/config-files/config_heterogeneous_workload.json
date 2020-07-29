@@ -28,7 +28,7 @@
 					},
 					{
 						"queries"  : 1024,
-						"replicas" : 0
+						"replicas" : 2
 					},
 					{
 						"queries"  : 2048,
@@ -36,7 +36,7 @@
 					},
 					{
 						"queries"  : 4096,
-						"replicas" : 0
+						"replicas" : 2
 					},
 					{
 						"queries"  : 8192,
@@ -44,7 +44,7 @@
 					},
 					{
 						"queries"  : 16384,
-						"replicas" : 0
+						"replicas" : 2
 					},
 					{
 						"queries"  : 32768,
@@ -89,11 +89,11 @@
 					},
 					{
 						"queries"  : 4096,
-						"replicas" : 0
+						"replicas" : 2
 					},
 					{
 						"queries"  : 8192,
-						"replicas" : 0
+						"replicas" : 2
 					},
 					{
 						"queries"  : 16384,
@@ -101,7 +101,7 @@
 					},
 					{
 						"queries"  : 32768,
-						"replicas" : 0
+						"replicas" : 2
 					}
 				      ]
 	},
@@ -130,15 +130,15 @@
 					},
 					{
 						"queries"  : 512,
-						"replicas" : 0
+						"replicas" : 2
 					},
 					{
 						"queries"  : 1024,
-						"replicas" : 20 
+						"replicas" : 2
 					},
 					{
 						"queries"  : 2048,
-						"replicas" : 0
+						"replicas" : 2
 					},
 					{
 						"queries"  : 4096, 
@@ -175,15 +175,15 @@
 					},
 					{
 						"queries"  : 128,
-						"replicas" : 0
+						"replicas" : 2
 					},
 					{
 						"queries"  : 256,
-						"replicas" : 0
+						"replicas" : 2
 					},
 					{
 						"queries"  : 512,
-						"replicas" : 0
+						"replicas" : 2
 					},
 					{
 						"queries"  : 1024,
@@ -224,7 +224,7 @@
 		"list"              : [
 					{
 						"queries"  : 64,
-						"replicas" : 0
+						"replicas" : 2
 					},
 					{
 						"queries"  : 128,
@@ -236,7 +236,7 @@
 					},
 					{
 						"queries"  : 512,
-						"replicas" : 0
+						"replicas" : 2
 					},
 					{
 						"queries"  : 1024,
@@ -244,7 +244,7 @@
 					},
 					{
 						"queries"  : 2048,
-						"replicas" : 0
+						"replicas" : 2
 					},
 					{
 						"queries"  : 4096,

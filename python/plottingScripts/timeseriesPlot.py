@@ -27,16 +27,16 @@ series = pandas.read_csv('combined.csv', header=0, index_col=0, parse_dates=True
 
 series.plot()
 
-plt.title(METRIC + ' plot')
-plt.xlabel('Time (s)')
+plt.title(METRIC + ' plot', fontweight='bold')
+plt.xlabel('Time (s)', fontweight='bold')
 	
 if METRIC == 'dcgm_gpu_utilization':	
-	plt.ylabel(METRIC + ' (%)')
+	plt.ylabel(METRIC + ' (%)', fontweight='bold')
 elif METRIC == 'dcgm_power_usage':
-	plt.ylabel(METRIC + ' (W)')
+	plt.ylabel(METRIC + ' (W)', fontweight='bold')
 elif METRIC == 'dcgm_fb_used' or METRIC == 'dcgm_fb_free':
-	plt.ylabel(METRIC + ' (MiB)')
+	plt.ylabel(METRIC + ' (MiB)', fontweight='bold')
 elif METRIC == 'dcgm_memory_clock' or METRIC == 'dcgm_sm_clock':
-	plt.ylabel(METRIC + ' (MHz)')
+	plt.ylabel(METRIC + ' (MHz)', fontweight='bold')
 
 plt.savefig(WORKLOAD_NAME + '-' + METRIC + '.png')

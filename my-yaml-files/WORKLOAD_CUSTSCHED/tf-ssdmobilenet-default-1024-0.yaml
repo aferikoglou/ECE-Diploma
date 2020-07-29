@@ -3,12 +3,13 @@ kind: Job
 metadata:
   name: tf-ssdmobilenet-default-1024-0
 spec:
+  backoffLimit: 20
   completions: 1
   parallelism: 1
   template:
     metadata:
       labels:
-        GPU_MEM_REQ: '14'
+        GPU_MEM_REQ: '24479'
       name: tf-ssdmobilenet-default-1024-0-pod
     spec:
       containers:
@@ -20,5 +21,6 @@ spec:
           ./run_local.sh tf ssd-mobilenet gpu --scenario SingleStream
         image: aferikoglou/mlperf-inference:latest
         name: mlperf-inference-container
+      hostIPC: true
       restartPolicy: OnFailure
       schedulerName: custom-scheduler

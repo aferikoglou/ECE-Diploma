@@ -93,7 +93,7 @@
 					},
 					{
 						"queries"  : 8192,
-						"replicas" : 0
+						"replicas" : 1
 					},
 					{
 						"queries"  : 16384,
@@ -134,7 +134,7 @@
 					},
 					{
 						"queries"  : 1024,
-						"replicas" : 20 
+						"replicas" : 1 
 					},
 					{
 						"queries"  : 2048,

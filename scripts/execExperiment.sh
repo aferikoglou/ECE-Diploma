@@ -27,7 +27,7 @@ MAX=${2}
 OVERPROV_PERC=${3}
 
 ##### Scheduling Mechanisms #####
-SCHED_MECHANISMS='DEFAULT ALIBABA CUSTSCHED IMPROVEDCUSTSCHED'
+SCHED_MECHANISMS='DEFAULT ALIBABA CUSTSCHED'
 ##### Define whether GPU metrics are going to be exported #####
 EXPORT_METRICS='True'
 ##### GPU Metrics that are going to be exported #####
@@ -64,9 +64,6 @@ do
 	elif [ "${MECH}" == "CUSTSCHED" ];
 	then
 		${SETUP_SCRIPT_PATH} CUSTOM_SCHED ENABLE
-	elif [ "${MECH}" == "IMPROVEDCUSTSCHED" ];
-	then
-		${SETUP_SCRIPT_PATH} IMPROVED_CUSTOM_SCHED ENABLE
 	fi
 
 	sleep 45
@@ -82,15 +79,12 @@ do
 		${SETUP_SCRIPT_PATH} ALIBABA_SCHED DISABLE
 	elif [ "${MECH}" == "CUSTSCHED" ];
 	then
+		kubectl get pod $(kubectl get pods | awk '/custom-scheduler/ {print $1;exit}') -o jsonpath='{.status.containerStatuses[0].restartCount}' > ${MONITORING_FILES_PATH}${EXPERIMENT_NAME}'/custom-scheduler-container-restarts.txt'
 		kubectl logs $(kubectl get pods | awk '/custom-scheduler/ {print $1;exit}') > ${MONITORING_FILES_PATH}${EXPERIMENT_NAME}'/custom-scheduler.log'
 		${SETUP_SCRIPT_PATH} CUSTOM_SCHED DISABLE
-	elif [ "${MECH}" == "IMPROVEDCUSTSCHED" ];
-	then
-		kubectl logs $(kubectl get pods | awk '/improved-custom-scheduler/ {print $1;exit}') > ${MONITORING_FILES_PATH}${EXPERIMENT_NAME}'/improved-custom-scheduler.log'
-		${SETUP_SCRIPT_PATH} IMPROVED_CUSTOM_SCHED DISABLE
 
 		##### Evaluate model #####
-		python ${AR1_EVALUATOR_PATH} --SCHEDULER_LOGS_DIR ${MONITORING_FILES_PATH}${EXPERIMENT_NAME} --SCHEDULER_LOGS_NAME 'improved-custom-scheduler.log'
+		python ${AR1_EVALUATOR_PATH} --SCHEDULER_LOGS_DIR ${MONITORING_FILES_PATH}${EXPERIMENT_NAME} --SCHEDULER_LOGS_NAME 'custom-scheduler.log'
 	fi
 
 	sleep 45

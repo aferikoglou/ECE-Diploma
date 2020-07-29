@@ -3,6 +3,7 @@ kind: Job
 metadata:
   name: tf-ssdmobilenet-default-1024-0
 spec:
+  backoffLimit: 20
   completions: 1
   parallelism: 1
   template:
@@ -20,5 +21,6 @@ spec:
         name: mlperf-inference-container
         resources:
           limits:
-            aliyun.com/gpu-mem: 14
+            aliyun.com/gpu-mem: 24
+      hostIPC: true
       restartPolicy: OnFailure
