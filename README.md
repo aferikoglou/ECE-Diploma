@@ -1,8 +1,8 @@
-# Kubernetes GPU Scheduling
+# Resource Aware GPU Scheduling in Kubernetes Infrastructures
 
-In this project we try to create a GPU Kubernetes scheduler and compare it with the Default Kubernetes GPU scheduler extension and the Alibaba GPU sharing scheduler extension.
+In this project we try to create a custom Kubernetes GPU scheduler and compare it with the *Default Kubernetes GPU scheduler extension* and the *Alibaba GPU sharing scheduler extension*.
 
-In __system-setup__ folder the instructions of setting up the system I have used can be found.
+In __system-setup__ folder the instructions of setting up the system we have used can be found.
 
 Our custom scheduler is based on [Kube-Knots](docs/papers).
 
