@@ -45,5 +45,5 @@ In __system-setup__ folder the instructions of setting up the experimental infra
 
 * **Ferikoglou Aggelos**
 
-This project was created through my *diploma* in *[Microlab](https://microlab.ntua.gr/)*.
+This project was created through my diploma in [Microlab](https://microlab.ntua.gr/).
 
