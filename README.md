@@ -8,7 +8,7 @@ The proposed experimental infrastructure contains a GPU monitoring system. Our m
 
 The used workloads where created using image classification and object detection tasks from the [MLPerf Inference benchmark](https://mlperf.org/inference-overview/) suite.
 
-Our proposed system creates a workload and feeds it to all our available schedulers. Each workload is fed multiple times to our For each workload execution
+Our proposed system creates a workload and feeds it to all our available schedulers. Each workload is fed multiple times to each scheduler For each workload execution
 a set of GPU metrics are exported and plotted. The execution statistics data for each Job are also exported. These data are used for the comparison of our schedulers.
 
 > The container images that are used can be found in this [Dockerhub account](https://hub.docker.com/search?q=aferikoglou&type=image).
