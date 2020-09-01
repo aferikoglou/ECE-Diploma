@@ -5,7 +5,7 @@ For the nodes of our cluster, we have deployed 3 virtual machines (VMs) (1 maste
 The following image describes the above mentioned components.
 
 <p align="center">
-    <img src="images/experimentalInfrastrusture.png" width="350" height="350">
+    <img src="images/experimentalInfrastrusture.png" width="300" height="300">
 </p>
 
 The monitoring system we have used consists of the NVIDIA GPU Metrics Exporter and the Timeseries Database Prometheus. The GPU monitoring system can be set up following the instructions of [monitoring_system_setup.md](monitoring_system_setup.md).
@@ -14,10 +14,10 @@ The official NVIDIA GPU device plugin can be enabled following the instructions 
 
 The used workloads where created using image classification and object detection tasks from the [MLPerf Inference benchmark](https://mlperf.org/inference-overview/) suite. The container we created and used in our workloads can be found in this [Dockerhub account](https://hub.docker.com/search?q=aferikoglou&type=image).
 
-The following image describes all the components of our scheduling mechanism.
+The following image describes all the components of our scheduling framework.
 
 <p align="center">
-    <img src="images/overallSystem.png" width="350" height="350">
+    <img src="images/overallSystem.png" width="400" height="400">
 </p>
 
 After the initial system setup the setup.sh script can be used.
