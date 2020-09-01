@@ -10,13 +10,22 @@ More information for this project can be found in the detailed [report](docs/rep
 
 These instructions will get you a copy of the project on your cluster.
 
-## Prerequisites
+## Used versions of required software
 
-* Ubuntu
-* Kubernetes
-* Docker
-* Python
-* Go
+### ALL cluster nodes
+
+* Ubuntu 16.04.5
+* Kubernetes 1.18.2
+* Docker 19.03.8
+
+### kube-master
+
+* Python 2.7.12
+* Golang 1.11
+
+### kube-gpu
+
+* NVIDIA-Docker 2.2.2
 
 ## Setup
 
