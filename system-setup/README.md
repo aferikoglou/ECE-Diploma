@@ -10,7 +10,7 @@ The following image describes the above mentioned components.
 
 The monitoring system we have used consists of the NVIDIA GPU Metrics Exporter and the Timeseries Database Prometheus. The GPU monitoring system can be set up following the instructions of [monitoring_system_setup.md](monitoring_system_setup.md).
 
-The official NVIDIA GPU device plugin can be enabled following the instructions of [default_sched_setup.md](default_sched_setup.md) while the Alibaba GPU sharing scheduler extender can be enabled following the instructions of [alibaba_sched_setup.md](alibaba_sched_setup.md). Finally, our custom scheduler can be enabled following the instructions of [custom_sched_setup.md](custom_sched_setup.md).
+The official NVIDIA GPU device plugin can be enabled following the instructions of [default_sched_setup.md](default_sched_setup.md) while the Alibaba GPU sharing scheduler extender can be enabled following the instructions of [alibaba_sched_setup.md](alibaba_sched_setup.md). Finally, our custom scheduler can be enabled following the instructions of [custom_sched_setup.md](custom_sched_setup.md) (our custom scheduler can be easily modified by using the Makefile and the schedScript.sh script in go/src/github.com/aferikoglou/scheduler directory).
 
 The used workloads where created using image classification and object detection tasks from the [MLPerf Inference benchmark](https://mlperf.org/inference-overview/) suite. The container we created and used in our workloads can be found in this [Dockerhub account](https://hub.docker.com/search?q=aferikoglou&type=image).
 
