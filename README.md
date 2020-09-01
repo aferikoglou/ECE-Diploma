@@ -10,7 +10,7 @@ More information for this project can be found in the detailed [report](docs/rep
 
 These instructions will get you a copy of the project on your cluster.
 
-## Used versions of required software
+## Used Versions of Required Software
 
 ### ALL cluster nodes
 
