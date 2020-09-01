@@ -14,4 +14,10 @@ The official NVIDIA GPU device plugin can be enabled following the instructions 
 
 The used workloads where created using image classification and object detection tasks from the [MLPerf Inference benchmark](https://mlperf.org/inference-overview/) suite. The container we created and used in our workloads can be found in this [Dockerhub account](https://hub.docker.com/search?q=aferikoglou&type=image).
 
+The following image describes all the components of our scheduling mechanism.
+
+<p align="center">
+    <img src="images/overallSystem.png" width="350" height="350">
+</p>
+
 After the initial system setup the setup.sh script can be used.
