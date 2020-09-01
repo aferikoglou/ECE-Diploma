@@ -28,16 +28,16 @@ const schedulerName = "custom-scheduler"
 
 const PROMETHEUS_ENDPOINT string = "http://192.168.1.146:30000"
 
-const schedDelay int = 10 // sec
+const schedDelay int = 5 // in sec
 
-// Resource Harvesting Constants
+// Correlation Based Prediction Constants
 const covThr float64 = 0.5
 const resHarvPerc float64 = 0.8 // 80%-ile
 
 // Peak Prediction Constants
 const k int = 10 // 1
 const steps int = 1 // 10
-const autocorThr float64 = 0.3
+const autocorThr float64 = 0.35
 
 
 var AVAIL_GPU_MEM int = 32510 // in MiB
@@ -48,11 +48,6 @@ var runningPodsList *list.List
 var tmpList *list.List
 
 var lastSchedulingTimestamp int
-
-// LR Model Evaluation
-var predTimestampList *list.List
-var autocorValMap map[int32]float64
-var predValMap map[int32]int
 
 var FOUND_SCHEDULABLE_POD bool = true
 
@@ -153,10 +148,6 @@ func main() {
 
 	lastSchedulingTimestamp = int(time.Now().Unix())
 
-	predTimestampList = list.New()
-	autocorValMap = make(map[int32]float64)
-	predValMap = make(map[int32]int)
-
 	quit := make(chan struct{})
 	defer close(quit)
 
@@ -172,7 +163,7 @@ func (s *Scheduler) Run(quit chan struct{}) {
 func (s *Scheduler) ScheduleOne() {
 	pod, _ := s.podPriorityQueue.Pop()
 
-	// If the pod priority queue is empty wait
+	// If the priority queue is empty wait for a pod to arrive.
 	for pod == nil {
 		pod, _ = s.podPriorityQueue.Pop()
 
@@ -211,9 +202,6 @@ func (s *Scheduler) ScheduleOne() {
 	}
 
 	time.Sleep(500 * time.Millisecond)
-
-	// LR Model Evaluation
-	getRealGPUFreeMemory()
 
 	if !FOUND_SCHEDULABLE_POD {
 		return
@@ -418,35 +406,6 @@ func (s *Scheduler) removeRunListPods() {
 	}
 }
 
-func getRealGPUFreeMemory() {
-	currentTimestamp := int32(time.Now().Unix())
-
-        for e := predTimestampList.Front(); e != nil; e = e.Next() {
-		predictionTimestamp_ := e.Value.(int32)
-
-                if currentTimestamp - predictionTimestamp_ >= 10 {
-			realGPUMemoryMap := promqueriesutil.Query(PROMETHEUS_ENDPOINT, "dcgm_fb_free")
-
-			realGPUMemory := 0
-			for _, val := range realGPUMemoryMap {
-				realGPUMemory = int(val)
-			}
-
-			autocorrelationVal := autocorValMap[predictionTimestamp_]
-			predictedGPUMemory := predValMap[predictionTimestamp_]
-
-			fmt.Printf("Timestamp = %d / Predicted GPU free memory = %d MiB / Steps = %d sec / Autocorrelation order = %d / Autocorrelation value = %f / Autocorrelation threshold = %f \n", predictionTimestamp_, predictedGPUMemory, steps, k, autocorrelationVal, autocorThr)
-
-			fmt.Printf("Timestamp = %d / Real GPU free memory = %d MiB \n", currentTimestamp, realGPUMemory)
-
-			// Delete
-			delete(autocorValMap, predictionTimestamp_)
-			delete(predValMap, predictionTimestamp_)
-			predTimestampList.Remove(e)
-		}
-        }
-}
-
 func startTimestampCalculation(endTimestamp int32) int32{
 	const MIN_D int = 20
 
@@ -465,9 +424,6 @@ func getGPUMetricTS(PROMETHEUS_ENDPOINT string, GPU_METRIC string, startTimestam
 }
 
 func Can_Be_Scheduled(p *v1.Pod) bool {
-	// For LR Model evaluation
-        getRealGPUFreeMemory()
-
 	fmt.Print(time.Now().Format("01-02-2006 15:04:05.000000") + "\t")
 	fmt.Print("Check whether pod ")
 	fmt.Print(p.Name)
@@ -490,12 +446,9 @@ func Can_Be_Scheduled(p *v1.Pod) bool {
 
 	if len(freeGPUMemTS) < 20 || len(usedGPUMemTS) < 20 {
 		fmt.Print(time.Now().Format("01-02-2006 15:04:05.000000") + "\t")
-		fmt.Println("Not enough values for RESOURCE HARVESTING and PEAK PREDICTION calculations.")
+		fmt.Println("Not enough values for CORRELATION BASED PREDICTION and PEAK PREDICTION calculations.")
 		return false
 	}
-
-	// For LR Model evaluation
-	getRealGPUFreeMemory()
 
 	if Can_Colocate(freeGPUMemTS) {
 		harvestedAvailGPUMemory := 32510 - Harvest_Resource(usedGPUMemTS)
@@ -505,39 +458,19 @@ func Can_Be_Scheduled(p *v1.Pod) bool {
 
 		if podGPUMemoryRequestMap[p.Name] <= harvestedAvailGPUMemory {
 			fmt.Print(time.Now().Format("01-02-2006 15:04:05.000000") + "\t")
-			fmt.Println("The pod GPU memory request CAN be satisfied through GPU memory HARVESTING.")
+			fmt.Println("The pod GPU memory request CAN be satisfied through CORRELATION BASED PREDICTION.")
 			return true
 		}
 	}
 
 	fmt.Print(time.Now().Format("01-02-2006 15:04:05.000000") + "\t")
-	fmt.Println("The pod GPU memory request CANNOT be satisfied through GPU memory HARVESTING.")
-
-	// For LR Model evaluation
-	getRealGPUFreeMemory()
+	fmt.Println("The pod GPU memory request CANNOT be satisfied through CORRELATION BASED PREDICTION.")
 
 	autocorrelationVal := AutoCorrelation(freeGPUMemTS, k)
 	if autocorrelationVal > autocorThr {
-		predictionTimestamp := int32(time.Now().Unix())
+		// predictionTimestamp := int32(time.Now().Unix())
 
 		freeGPUMemPred := AR_1(freeGPUMemTS, k, steps)
-
-		// Save prediction timestamp, autocorrelation value and predicted GPU memory usage value
-		PRED_TIMESTAMP_IS_FOUND := false
-		for e := predTimestampList.Front(); e != nil; e = e.Next() {
-			predictionTimestamp_ := e.Value.(int32)
-
-			if predictionTimestamp_ == predictionTimestamp {
-				PRED_TIMESTAMP_IS_FOUND = true
-				break
-			}
-		}
-
-		if !PRED_TIMESTAMP_IS_FOUND {
-			predTimestampList.PushBack(predictionTimestamp)
-			autocorValMap[predictionTimestamp] = autocorrelationVal
-			predValMap[predictionTimestamp] = freeGPUMemPred
-		}
 
 		fmt.Print(time.Now().Format("01-02-2006 15:04:05.000000") + "\t")
 		fmt.Printf("Free GPU Memory Prediction in %d sec = %d MiB\n", (steps * k), freeGPUMemPred)
@@ -551,9 +484,6 @@ func Can_Be_Scheduled(p *v1.Pod) bool {
 
 	fmt.Print(time.Now().Format("01-02-2006 15:04:05.000000") + "\t")
 	fmt.Println("The pod GPU memory request CANNOT be satisfied through PEAK PREDICTION.")
-
-	// For LR Model evaluation
-        getRealGPUFreeMemory()
 
 	return false
 }
@@ -582,15 +512,15 @@ func Can_Colocate(freeGPUMemTS map[int]float64) bool {
         fmt.Printf("Can_Colocate Calculations ...\n")
 
         var mean float64 = sum / float64(N)
-        fmt.Print(time.Now().Format("01-02-2006 15:04:05.000000") + "\t")
-        fmt.Printf("Mean               = %f\n", mean)
+        // fmt.Print(time.Now().Format("01-02-2006 15:04:05.000000") + "\t")
+        // fmt.Printf("Mean               = %f\n", mean)
 
         mean_val_squared := sum_2 / float64(N)
         var variance float64 = mean_val_squared - mean * mean
 
         var standard_deviation float64 = math.Sqrt(variance)
-        fmt.Print(time.Now().Format("01-02-2006 15:04:05.000000") + "\t")
-        fmt.Printf("Standard Deviation = %f\n", standard_deviation)
+        // fmt.Print(time.Now().Format("01-02-2006 15:04:05.000000") + "\t")
+        // fmt.Printf("Standard Deviation = %f\n", standard_deviation)
 
         var COV float64 = standard_deviation / mean
         fmt.Print(time.Now().Format("01-02-2006 15:04:05.000000") + "\t")
@@ -622,8 +552,8 @@ func Harvest_Resource(usedGPUMemTS map[int]float64) int {
         fmt.Printf("80perc-ile      = %f\n", percentile)
 
         var usedGPUMemory int = int(percentile)
-        fmt.Print(time.Now().Format("01-02-2006 15:04:05.000000") + "\t")
-        fmt.Printf("Used GPU Memory = %d MiB\n", usedGPUMemory)
+        // fmt.Print(time.Now().Format("01-02-2006 15:04:05.000000") + "\t")
+        // fmt.Printf("Used GPU Memory = %d MiB\n", usedGPUMemory)
 
         return usedGPUMemory
 }
@@ -702,12 +632,12 @@ func AR_1(freeGPUMemTS map[int]float64, k int, steps int) int {
 	fmt.Print(time.Now().Format("01-02-2006 15:04:05.000000") + "\t")
 	fmt.Print("values : ")
 	fmt.Println(values)
-	fmt.Print(time.Now().Format("01-02-2006 15:04:05.000000") + "\t")
-	fmt.Print("x      : ")
-	fmt.Println(values[0:(N - k - 1)])
-	fmt.Print(time.Now().Format("01-02-2006 15:04:05.000000") + "\t")
-	fmt.Print("y      : ")
-	fmt.Println(values[k:(N - 1)])
+	// fmt.Print(time.Now().Format("01-02-2006 15:04:05.000000") + "\t")
+	// fmt.Print("x_vec       : ")
+	// fmt.Println(values[0:(N - k - 1)])
+	// fmt.Print(time.Now().Format("01-02-2006 15:04:05.000000") + "\t")
+	// fmt.Print("y_vec       : ")
+	// fmt.Println(values[k:(N - 1)])
 
 	// Linear Regression - Least Squares
 	var sum_x float64 = 0.0
@@ -732,15 +662,15 @@ func AR_1(freeGPUMemTS map[int]float64, k int, steps int) int {
 	var phi_0 float64 = mean_y - phi_1 * mean_x
 
 	fmt.Print(time.Now().Format("01-02-2006 15:04:05.000000") + "\t")
-	fmt.Print("MODEL : ")
+	fmt.Print("AR(1) Model : ")
 	fmt.Printf("y[i] = %f + %f * y[i-1]\n", phi_0, phi_1)
 
 	var val float64 = values[N-1]
 	for i:=1; i < steps + 1; i++ {
 		pred := phi_0 + phi_1 * val
 
-		fmt.Print(time.Now().Format("01-02-2006 15:04:05.000000") + "\t")
-		fmt.Printf("Prediction at step %d = %f\n", i, pred)
+		// fmt.Print(time.Now().Format("01-02-2006 15:04:05.000000") + "\t")
+		// fmt.Printf("Prediction at step %d = %f\n", i, pred)
 
 		val = pred
 	}
