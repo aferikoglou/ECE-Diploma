@@ -12,7 +12,6 @@ START_EXPERIMENT_PATH='/root/python/startExperiment.py'
 TIMESERIES_PLOT_PATH='/root/python/plottingScripts/timeseriesPlot.py'
 OVERALL_PLOT_PATH='/root/python/plottingScripts/overallPlot.py'
 SEP_PLOT_PATH='/root/python/plottingScripts/sepPlot.py'
-AR1_EVALUATOR_PATH='/root/python/modelEvaluator/AR1_Evaluator.py'
 
 ##### Workload Generator Parameters #####
 DELAY_SEED=2020
@@ -79,12 +78,8 @@ do
 		${SETUP_SCRIPT_PATH} ALIBABA_SCHED DISABLE
 	elif [ "${MECH}" == "CUSTSCHED" ];
 	then
-		kubectl get pod $(kubectl get pods | awk '/custom-scheduler/ {print $1;exit}') -o jsonpath='{.status.containerStatuses[0].restartCount}' > ${MONITORING_FILES_PATH}${EXPERIMENT_NAME}'/custom-scheduler-container-restarts.txt'
 		kubectl logs $(kubectl get pods | awk '/custom-scheduler/ {print $1;exit}') > ${MONITORING_FILES_PATH}${EXPERIMENT_NAME}'/custom-scheduler.log'
 		${SETUP_SCRIPT_PATH} CUSTOM_SCHED DISABLE
-
-		##### Evaluate model #####
-		python ${AR1_EVALUATOR_PATH} --SCHEDULER_LOGS_DIR ${MONITORING_FILES_PATH}${EXPERIMENT_NAME} --SCHEDULER_LOGS_NAME 'custom-scheduler.log'
 	fi
 
 	sleep 45

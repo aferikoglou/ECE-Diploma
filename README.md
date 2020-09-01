@@ -1,17 +1,8 @@
 # Resource Aware GPU Scheduling in Kubernetes Infrastructure
 
-In this project we tried to create a custom Kubernetes GPU scheduler based on [Kube-Knots](docs/papers) paper and compare it with the [official NVIDIA GPU device plugin](https://kubernetes.io/docs/tasks/manage-gpus/scheduling-gpus/) and the [Alibaba GPU sharing scheduler extender](https://www.alibabacloud.com/blog/gpu-sharing-scheduler-extender-now-supports-fine-grained-kubernetes-clusters_594926).
+In this project we tried to create a custom Kubernetes GPU scheduler based on [Kube-Knots](docs/papers) paper and compare it with the [official NVIDIA GPU device plugin](https://kubernetes.io/docs/tasks/manage-gpus/scheduling-gpus/) and the [Alibaba GPU sharing scheduler extender](https://www.alibabacloud.com/blog/gpu-sharing-scheduler-extender-now-supports-fine-grained-kubernetes-clusters_594926). The aim of our scheduler is to face the GPU memory over-provisioning problem by using real-time metrics from the used graphics card. We show that we can achieve better QoS and higher GPU resource utilization compared to the above mentioned schedulers, for a variety of ML cloud representative workloads.
 
-Our Kubernetes cluster consists of three nodes kube-master, kube-cpu and kube-gpu. The kube-master node is the admin node of the cluster while kube-cpu and kube-gpu are the worker nodes. Their main difference is that kube-gpu node has GPU access while kube-cpu has not. As a GPU we used a NVIDIA TESLA V100 card. 
-
-The proposed experimental infrastructure contains a GPU monitoring system. Our monitoring system consists of DCGM node exporter (exports GPU metrics in timeseries format) and [Prometheus TSDB](https://prometheus.io/) (stores GPU metrics and provides PromQL for quering the data).
-
-The used workloads where created using image classification and object detection tasks from the [MLPerf Inference benchmark](https://mlperf.org/inference-overview/) suite.
-
-Our proposed system creates a workload and feeds it to all our available schedulers. Each workload is fed multiple times to each scheduler For each workload execution
-a set of GPU metrics are exported and plotted. The execution statistics data for each Job are also exported. These data are used for the comparison of our schedulers.
-
-> The container images that are used can be found in this [Dockerhub account](https://hub.docker.com/search?q=aferikoglou&type=image).
+The proposed system creates a workload based on a configuration file and feeds it in a specified rate to all the available schedulers using different memory over-provisioning percentages. For each experiment metrics from the graphics card are exported and plotted. In addition, execution statistics for each Job of the workload are exported. These data are used for the comparison of the available schedulers concerning the QoS and the resource utilization.
 
 More information for this project can be found in the detailed report in __docs__ folder. 
 
@@ -22,6 +13,8 @@ These instructions will get you a copy of the project on your cluster.
 ## Prerequisites
 
 * Ubuntu
+* Kubernetes
+* Docker
 * Python
 * Go
 
