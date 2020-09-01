@@ -4,7 +4,7 @@ In this project we tried to create a custom Kubernetes GPU scheduler based on [K
 
 The proposed system creates a workload based on a configuration file and feeds it in a specified rate to all the available schedulers using different memory over-provisioning percentages. For each experiment, metrics from the graphics card are exported (promqueriesutil package and prometheusGetter in go/src/github.com/aferikoglou must be built) and plotted. In addition, execution statistics for each Job of the workload are exported. These data are used for the comparison of the available schedulers concerning the QoS and the resource utilization.
 
-More information for this project can be found in the detailed [report](docs/report/thesis_ferikoglou.pdf) in __docs__ folder.
+More information for this project can be found in the detailed [report](docs/report/thesis_ferikoglou.pdf).
 
 ## Getting Started
 
