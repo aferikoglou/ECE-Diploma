@@ -41,11 +41,25 @@ In __system-setup__ folder the instructions of setting up the experimental infra
 
 In __monitoring-files__ folder output data from our system can be found.
 
-Here we demonstrate the dcgm\_fb\_used, dcgm\_gpu\_utilization and dcgm\_power\_usage signals for all the available schedulers, for over-provisioning percentages equal to 0%, 100% and 250%.
+Here we demonstrate the dcgm\_fb\_used, dcgm\_gpu\_utilization and dcgm\_power\_usage signals for all the available schedulers, for GPU memory over-provisioning percentages equal to 0%, 100% and 250%.
+
+* GPU memory over-provisiong percentage = 0%
 
 dcgm\_fb\_used           |  dcgm\_gpu\_utilization  |   dcgm\_power\_usage
 :-------------------------:|:-------------------------:|:-------------------------:
 ![](monitoring-files/EXPERIMENT_1598969161_MIN_20_MAX_40_OVERPROV_0/OVERALL/dcgm_fb_used/EXPERIMENT_1598969161_MIN_20_MAX_40_OVERPROV_0-SEP-dcgm_fb_used.png)  |  ![](monitoring-files/EXPERIMENT_1598969161_MIN_20_MAX_40_OVERPROV_0/OVERALL/dcgm_gpu_utilization/EXPERIMENT_1598969161_MIN_20_MAX_40_OVERPROV_0-SEP-dcgm_gpu_utilization.png) | ![](monitoring-files/EXPERIMENT_1598969161_MIN_20_MAX_40_OVERPROV_0/OVERALL/dcgm_power_usage/EXPERIMENT_1598969161_MIN_20_MAX_40_OVERPROV_0-SEP-dcgm_power_usage.png)
+
+* GPU memory over-provisiong percentage = 100%
+
+dcgm\_fb\_used           |  dcgm\_gpu\_utilization  |   dcgm\_power\_usage
+:-------------------------:|:-------------------------:|:-------------------------:
+![](monitoring-files/EXPERIMENT_1598983361_MIN_20_MAX_40_OVERPROV_100/OVERALL/dcgm_fb_used/EXPERIMENT_1598969161_MIN_20_MAX_40_OVERPROV_0EXPERIMENT_1598983361_MIN_20_MAX_40_OVERPROV_100-SEP-dcgm_fb_used.png)  |  ![](monitoring-files/EXPERIMENT_1598983361_MIN_20_MAX_40_OVERPROV_100/OVERALL/dcgm_gpu_utilization/EXPERIMENT_1598983361_MIN_20_MAX_40_OVERPROV_100-SEP-dcgm_gpu_utilization.png) | ![](monitoring-files/EXPERIMENT_1598983361_MIN_20_MAX_40_OVERPROV_100/OVERALL/dcgm_power_usage/EXPERIMENT_1598983361_MIN_20_MAX_40_OVERPROV_100-SEP-dcgm_power_usage.png)
+
+* GPU memory over-provisiong percentage = 250%
+
+dcgm\_fb\_used           |  dcgm\_gpu\_utilization  |   dcgm\_power\_usage
+:-------------------------:|:-------------------------:|:-------------------------:
+![](monitoring-files/EXPERIMENT_1599069805_MIN_20_MAX_40_OVERPROV_250/OVERALL/dcgm_fb_used/EXPERIMENT_1599069805_MIN_20_MAX_40_OVERPROV_250-SEP-dcgm_fb_used.png)  |  ![](monitoring-files/EXPERIMENT_1599069805_MIN_20_MAX_40_OVERPROV_250/OVERALL/dcgm_gpu_utilization/EXPERIMENT_1599069805_MIN_20_MAX_40_OVERPROV_250-SEP-dcgm_gpu_utilization.png) | ![](monitoring-files/EXPERIMENT_1599069805_MIN_20_MAX_40_OVERPROV_250/OVERALL/dcgm_power_usage/EXPERIMENT_1599069805_MIN_20_MAX_40_OVERPROV_250-SEP-dcgm_power_usage.png)
 
 ## Author
 
