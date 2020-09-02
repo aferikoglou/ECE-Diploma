@@ -61,6 +61,8 @@ dcgm\_fb\_used           |  dcgm\_gpu\_utilization  |   dcgm\_power\_usage
 :-------------------------:|:-------------------------:|:-------------------------:
 ![](monitoring-files/EXPERIMENT_1599069805_MIN_20_MAX_40_OVERPROV_250/OVERALL/dcgm_fb_used/EXPERIMENT_1599069805_MIN_20_MAX_40_OVERPROV_250-SEP-dcgm_fb_used.png)  |  ![](monitoring-files/EXPERIMENT_1599069805_MIN_20_MAX_40_OVERPROV_250/OVERALL/dcgm_gpu_utilization/EXPERIMENT_1599069805_MIN_20_MAX_40_OVERPROV_250-SEP-dcgm_gpu_utilization.png) | ![](monitoring-files/EXPERIMENT_1599069805_MIN_20_MAX_40_OVERPROV_250/OVERALL/dcgm_power_usage/EXPERIMENT_1599069805_MIN_20_MAX_40_OVERPROV_250-SEP-dcgm_power_usage.png)
 
+More results can be found in the detailed [report](docs/report/thesis_ferikoglou.pdf).
+
 ## Author
 
 * **Ferikoglou Aggelos**
