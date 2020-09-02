@@ -39,7 +39,9 @@ In __system-setup__ folder the instructions of setting up the experimental infra
 
 ## Results
 
+In __monitoring-files__ folder output data from our system can be found.
 
+Here we demonstrate the dcgm\_fb\_used, dcgm\_gpu\_utilization and dcgm\_power\_usage signals for all the available schedulers for over-provisioning percentages equal to 0%, 100% and 250%.
 
 ## Author
 
