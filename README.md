@@ -45,7 +45,7 @@ Here we demonstrate the dcgm\_fb\_used, dcgm\_gpu\_utilization and dcgm\_power\_
 
 Solarized dark             |  Solarized Ocean
 :-------------------------:|:-------------------------:
-![](https://...Dark.png)  |  ![](https://...Ocean.png)
+![](monitoring-files/EXPERIMENT_1598969161_MIN_20_MAX_40_OVERPROV_0/OVERALL/dcgm_fb_used/EXPERIMENT_1598969161_MIN_20_MAX_40_OVERPROV_0-SEP-dcgm_fb_used.png)  |  ![](monitoring-files/EXPERIMENT_1598969161_MIN_20_MAX_40_OVERPROV_0/OVERALL/dcgm_fb_used/EXPERIMENT_1598969161_MIN_20_MAX_40_OVERPROV_0-SEP-dcgm_fb_used.png)
 
 ## Author
 
