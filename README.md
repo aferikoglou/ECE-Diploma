@@ -43,9 +43,9 @@ In __monitoring-files__ folder output data from our system can be found.
 
 Here we demonstrate the dcgm\_fb\_used, dcgm\_gpu\_utilization and dcgm\_power\_usage signals for all the available schedulers, for over-provisioning percentages equal to 0%, 100% and 250%.
 
-Solarized dark             |  Solarized Ocean
-:-------------------------:|:-------------------------:
-![](monitoring-files/EXPERIMENT_1598969161_MIN_20_MAX_40_OVERPROV_0/OVERALL/dcgm_fb_used/EXPERIMENT_1598969161_MIN_20_MAX_40_OVERPROV_0-SEP-dcgm_fb_used.png)  |  ![](monitoring-files/EXPERIMENT_1598969161_MIN_20_MAX_40_OVERPROV_0/OVERALL/dcgm_fb_used/EXPERIMENT_1598969161_MIN_20_MAX_40_OVERPROV_0-SEP-dcgm_fb_used.png)
+dcgm\_fb\_used           |  dcgm\_gpu\_utilization  |   dcgm\_power\_usage
+:-------------------------:|:-------------------------:|:-------------------------:
+![](monitoring-files/EXPERIMENT_1598969161_MIN_20_MAX_40_OVERPROV_0/OVERALL/dcgm_fb_used/EXPERIMENT_1598969161_MIN_20_MAX_40_OVERPROV_0-SEP-dcgm_fb_used.png)  |  ![](monitoring-files/EXPERIMENT_1598969161_MIN_20_MAX_40_OVERPROV_0/OVERALL/dcgm_gpu_utilization/EXPERIMENT_1598969161_MIN_20_MAX_40_OVERPROV_0-SEP-dcgm_gpu_utilization.png) | ![](monitoring-files/EXPERIMENT_1598969161_MIN_20_MAX_40_OVERPROV_0/OVERALL/dcgm_power_usage/EXPERIMENT_1598969161_MIN_20_MAX_40_OVERPROV_0-SEP-dcgm_power_usage.png)
 
 ## Author
 
