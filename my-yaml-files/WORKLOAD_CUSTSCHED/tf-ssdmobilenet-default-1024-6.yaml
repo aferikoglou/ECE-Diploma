@@ -1,0 +1,26 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: tf-ssdmobilenet-default-1024-6
+spec:
+  backoffLimit: 20
+  completions: 1
+  parallelism: 1
+  template:
+    metadata:
+      labels:
+        GPU_MEM_REQ: '24479'
+      name: tf-ssdmobilenet-default-1024-6-pod
+    spec:
+      containers:
+      - command:
+        - sh
+        - -c
+        - cp /root/configs/1024/mlperf.conf /root/inference/v0.5/ && cd /root/inference/v0.5/classification_and_detection
+          && MODEL_DIR=/root/models/tf-ssdmobilenet-default DATA_DIR=/root/datasets/coco-300
+          ./run_local.sh tf ssd-mobilenet gpu --scenario SingleStream
+        image: aferikoglou/mlperf-inference:latest
+        name: mlperf-inference-container
+      hostIPC: true
+      restartPolicy: OnFailure
+      schedulerName: custom-scheduler
